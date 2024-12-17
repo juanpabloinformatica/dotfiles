@@ -7,6 +7,8 @@ Mine Configuration files, and how the manage of it will work.
 
 ```
 dotfiles/
+  |__pictures/
+    |__.gruvbox_tux.png
   |__home/
     |__.gitconfig
     |__.zshrc
@@ -43,6 +45,7 @@ dotfiles/
 git clone git@github.com:juanpabloinformatica/dotfiles.git $HOME/Documents/
 stow --target=$HOME $HOME/Documents/home
 stow --target=$HOME/.config $HOME/Documents/config
+stow --target=$HOME/Pictures $HOME/Documents/Pictures
 ```
 - This will clone and put the different files where they should be besides.
   If a change is done, then will be easy to update everyfile and see reflected
