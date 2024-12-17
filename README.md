@@ -5,6 +5,7 @@ Mine Configuration files, and how the manage of it will work.
 
 - Here is how the folder structure of the dotfiles will be
 
+```
 dotfiles/
   |__home/
     |__.gitconfig
@@ -25,6 +26,7 @@ dotfiles/
     |__i3/
       |__config
   |__steps.md
+```
 
 ## How this will work
 
