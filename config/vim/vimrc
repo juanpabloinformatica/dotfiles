@@ -93,6 +93,8 @@ Plug 'troydm/zoomwintab.vim'
 Plug 'kshenoy/vim-signature'
 " For colorscheme
 Plug 'morhetz/gruvbox'
+" Temporal plugin
+Plug 'hashivim/vim-vagrant'
 
 call plug#end()
 
@@ -174,8 +176,9 @@ inoremap <silent><expr> <TAB>
 " show documentation --> this is  a coc recomendation twikked with <leader>
 nnoremap <silent><leader>K :call ShowDocumentation()<CR>
 " Formatting selected code
-xmap <leader>fm  <Plug>(coc-format-selected)
-nmap <leader>fm  <Plug>(coc-format-selected)
+nnoremap <leader>fm :call CocActionAsync('format')<CR>
+" xmap <leader>fm  <Plug>(coc-format-selected)
+" nmap <leader>fm  <Plug>(coc-format-selected)
 " Applying code actions to the selected code block
 " " Example: `<leader>aap` for current paragraph
 " xmap <leader>ca  <Plug>(coc-codeaction-selected)

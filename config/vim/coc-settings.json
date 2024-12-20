@@ -1,3 +1,6 @@
 {
-  "diagnostic.virtualTextCurrentLineOnly": true
+  "diagnostic.virtualTextCurrentLineOnly": true,
+  "_comment":"This lines are needed to make bash languague server figure out how to find shellcheck and shfmt",
+  "bashIde.shfmt.path": "/home/jppm/.local/share/nvim/mason/bin/shfmt",
+  "bashIde.shellcheckPath": "/home/jppm/.local/share/nvim/mason/bin/shellcheck"
 }
