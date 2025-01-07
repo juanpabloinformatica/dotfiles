@@ -1,0 +1,33 @@
+{
+  "diagnostic.virtualTextCurrentLineOnly": true,
+  "diagnostic-languageserver.mergeConfig": {
+    "type": "boolean",
+    "default": true,
+    "description": "merge config?"
+  },
+  "diagnostic-languageserver.filetypes": {
+    "sh": "shellcheck"
+  },
+  "diagnostic-languageserver.linters": {
+    "shellcheck":{
+      "command":"/home/jppm/.local/share/nvim/mason/bin/shellcheck"
+    } 
+  },
+  "diagnostic-languageserver.formatFiletypes": {
+    "sh": "shfmt"
+  },
+  "diagnostic-languageserver.formatters": {
+    "shfmt": {
+      "command": "/home/jppm/.local/share/nvim/mason/bin/shfmt",
+      "args": [
+        "-i",
+        "2",
+        "-bn",
+        "-ci",
+        "-sr"
+      ]
+    }
+  },
+  "bashIde.shfmt.path": "/home/jppm/.local/share/nvim/mason/bin/shfmt",
+  "bashIde.shellcheckPath": "/home/jppm/.local/share/nvim/mason/bin/shellcheck"
+}

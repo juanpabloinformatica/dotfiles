@@ -1,4 +1,5 @@
 "----------------------------------Options -----------------------------
+"
 " mines
 "encoding
 set encoding=utf-8
@@ -15,6 +16,12 @@ set timeoutlen=400
 set updatetime=250
 set grepprg=rg\ --vimgrep
 set grepformat^=%f:%l:%c:%m
+set laststatus=2
+set statusline=%t\ \ \\|
+set statusline+=\ \ %{gitbranch#name()}\ \ \  
+" For gutentags
+set statusline+=%{gutentags#statusline()}
+" set statusline=%f
 " this will set the undodir in the same project 
 " set undodir="."
 set undolevels=10000
@@ -44,6 +51,7 @@ syntax enable
 filetype plugin indent on
 
 
+
 " ------------------------------- Setting Plug --------------------------
 
 "let data_dir =  '~/.vim'
@@ -64,7 +72,8 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
 \| endif
 
 "---------------------------------- Plugins ------------------------------
-"
+packadd! editorconfig
+" packadd! comment
 "mines
 call plug#begin()
 " List your plugins here
@@ -80,7 +89,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
 " For editorconfig
-Plug 'editorconfig/editorconfig-vim'
+" Plug 'editorconfig/editorconfig-vim'
 " For Having an LSP client in vim
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " For C/C++ Highlighting
@@ -92,15 +101,26 @@ Plug 'troydm/zoomwintab.vim'
 " For showing marks
 Plug 'kshenoy/vim-signature'
 " For colorscheme
-Plug 'morhetz/gruvbox'
-" Temporal plugin
-Plug 'hashivim/vim-vagrant'
+" Plug 'morhetz/gruvbox'
+" For managing ctags
+Plug 'ludovicchabant/vim-gutentags'
+" For statusline
+" Plug 'vim-airline/vim-airline'
+" For themes of statusline
+" Plug 'vim-airline/vim-airline-themes'
+" for showing the git branch
+Plug 'itchyny/vim-gitbranch'
+" for the gruvbox material
+Plug 'sainnhe/gruvbox-material'
+
 
 call plug#end()
 
 
 " This is isolated because it depends on the gruvbox plugin
-colorscheme gruvbox
+
+let g:gruvbox_material_background = 'hard'
+colorscheme gruvbox-material
 
 " Use release branch (recommended)
 
@@ -343,6 +363,38 @@ let g:netrw_bufsettings="noma nomod nonu nobl nowrap ro rnu"
 let &t_SI = "\<Esc>[6 q"
 let &t_SR = "\<Esc>[4 q"
 let &t_EI = "\<Esc>[2 q"
+
+" for airlines
+" let g:airline_theme='gruvbox'
+" air-line
+" let g:airline_powerline_fonts = 1
+
+" if !exists('g:airline_symbols')
+"     let g:airline_symbols = {}
+" endif
+
+" " unicode symbols
+" let g:airline_left_sep = '»'
+" let g:airline_left_sep = '▶'
+" let g:airline_right_sep = '«'
+" let g:airline_right_sep = '◀'
+" let g:airline_symbols.linenr = '␊'
+" let g:airline_symbols.linenr = '␤'
+" let g:airline_symbols.linenr = '¶'
+" let g:airline_symbols.branch = '⎇'
+" let g:airline_symbols.paste = 'ρ'
+" let g:airline_symbols.paste = 'Þ'
+" let g:airline_symbols.paste = '∥'
+" let g:airline_symbols.whitespace = 'Ξ'
+
+" " airline symbols
+" let g:airline_left_sep = ''
+" let g:airline_left_alt_sep = ''
+" let g:airline_right_sep = ''
+" let g:airline_right_alt_sep = ''
+" let g:airline_symbols.branch = ''
+" let g:airline_symbols.readonly = ''
+" let g:airline_symbols.linenr = ''
 
 " from coc-snippet
 "
