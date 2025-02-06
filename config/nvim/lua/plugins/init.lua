@@ -14,18 +14,32 @@ return {
     --     end,
     -- },
     {
-        "Shatur/neovim-ayu",
-        config = function()
-            require("ayu").setup({
-                mirage = false, -- Set to `true` to use `mirage` variant instead of `dark` for dark background.
-                overrides = {
-                    Normal = { bg = "#000000" },
-                },
-            })
-            vim.cmd([[colorscheme ayu]])
-            vim.cmd([[hi LineNr guifg=#b1b1b1]])
+        'wittyjudge/gruvbox-material.nvim',
+        config=function()
+            require('gruvbox-material').setup()
         end,
+
     },
+    -- {
+    -- 'sainnhe/gruvbox-material',
+    --     config = function()
+    --         vim.cmd[[let g:gruvbox_material_background = 'hard']]
+    --         vim.cmd([[colorscheme gruvbox-material]])
+    --     end,
+    -- },
+    -- {
+    --     "Shatur/neovim-ayu",
+    --     config = function()
+    --         require("ayu").setup({
+    --             mirage = false, -- Set to `true` to use `mirage` variant instead of `dark` for dark background.
+    --             overrides = {
+    --                 Normal = { bg = "#000000" },
+    --             },
+    --         })
+    --         vim.cmd([[colorscheme ayu]])
+    --         vim.cmd([[hi LineNr guifg=#b1b1b1]])
+    --     end,
+    -- },
     {
         "williamboman/mason.nvim",
         config = function()

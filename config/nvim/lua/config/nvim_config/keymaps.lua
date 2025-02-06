@@ -30,8 +30,6 @@ keymap.set("i", "jj", "<ESC>:noh<CR>", {})
 -- Use <leader>fm to format the current buffer using the Language Server Protocol (LSP).
 -- - `gcc`: Toggles the current line using linewise comment.
 -- - `gbc`: Toggles the current line using blockwise comment.
--- Preview in firefox
-keymap.set("n", "<leader>pv", ":!firefox %<CR>")
 -- Better vertical movement
 keymap.set("n", "<C-d>", "<C-d>zz")
 keymap.set("n", "<C-u>", "<C-u>zz")
@@ -88,17 +86,6 @@ keymap.set("n", "<S-t>", ":tabnew<CR>")
 -- nnoremap <silent> <S-t> :tabnew<CR>
 -- tagbar
 keymap.set("n", "<leader>i", ":TagbarToggle<CR>")
-
--- noremap YY "+y<CR>
--- noremap <leader>p "+gP<CR>
--- noremap XX "+x<CR>
---buffer nav
---noremap <leader>z :bp<cr>
---noremap <leader>q :bp<cr>
---noremap <leader>x :bn<cr>
---noremap <leader>w :bn<cr>
---noremap <leader>c :bd<CR>
--- Vmap for maintain Visual Mode after shifting > and <
 keymap.set("v", "<", "<gv")
 keymap.set("v", ">", ">gv")
 
@@ -107,24 +94,3 @@ keymap.set("v", ">", ">gv")
 keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 --vnoremap K :m '<-2<CR>gv=gv
 keymap.set("v", "K", ":m '<-2<CR>gv=gv")
--- local map = function(keys, func, desc, mode)
---     mode = mode or "n"
---     vim.keymap.set(mode, keys, func, { buffer = event.buf, desc = "LSP: " .. desc })
--- end
--- map("gd", require("telescope.builtin").lsp_definitions, "[G]oto [D]efinition")
---
--- -- Find references for the word under your cursor.
--- map("gr", require("telescope.builtin").lsp_references, "[G]oto [R]eferences")
---
--- -- Jump to the implementation of the word under your cursor.
--- --  Useful when your language has ways of declaring types without an actual implementation.
--- map("gI", require("telescope.builtin").lsp_implementations, "[G]oto [I]mplementation")
---
--- -- Jump to the type of the word under your cursor.
--- --  Useful when you're not sure what type a variable is and you want to see
--- --  the definition of its *type*, not where it was *defined*.
--- map("<leader>D", require("telescope.builtin").lsp_type_definitions, "Type [D]efinition")
---
--- -- Fuzzy find all the symbols in your current document.
--- --  Symbols are things like variables, functions, types, etc.
--- map("<leader>ds", require("telescope.builtin").lsp_document_symbols, "[D]ocument [S]ymbols")

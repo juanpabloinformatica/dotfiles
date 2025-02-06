@@ -4,7 +4,6 @@
 set encoding=utf-8
 set fileencoding=utf-8
 set fileencodings=utf-8
-
 "General
 set signcolumn="yes"
 set undofile
@@ -78,7 +77,6 @@ Plug 'Raimondi/delimitMate'
 " for fuzzy finding
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-
 " For editorconfig
 Plug 'editorconfig/editorconfig-vim'
 " For Having an LSP client in vim
@@ -92,15 +90,16 @@ Plug 'troydm/zoomwintab.vim'
 " For showing marks
 Plug 'kshenoy/vim-signature'
 " For colorscheme
-Plug 'morhetz/gruvbox'
-" Temporal plugin
-Plug 'hashivim/vim-vagrant'
+Plug 'sainnhe/gruvbox-material'
+" tree + icon + status
+Plug 'preservim/nerdtree' |
+            \ Plug 'Xuyuanp/nerdtree-git-plugin' |
+            \ Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
 
 
 " This is isolated because it depends on the gruvbox plugin
-colorscheme gruvbox
 
 " Use release branch (recommended)
 
@@ -123,6 +122,10 @@ vnoremap <silent> J :m '>+1<cr>gv=gv
 vnoremap <silent> K :m '<-2<cr>gv=gv
 nnoremap <leader>cmc :call RunCmake()<CR>
 inoremap jj <ESC>:noh<CR>
+nnoremap <leader>e :NERDTreeFocus<CR>
+" nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-n> :NERDTreeToggle<CR>
+" nnoremap <C-f> :NERDTreeFind<CR>
 
 
 
@@ -343,7 +346,23 @@ let g:netrw_bufsettings="noma nomod nonu nobl nowrap ro rnu"
 let &t_SI = "\<Esc>[6 q"
 let &t_SR = "\<Esc>[4 q"
 let &t_EI = "\<Esc>[2 q"
+let g:gruvbox_material_background = 'hard'
+let g:NERDTreeGitStatusIndicatorMapCustom = {
+                \ 'Modified'  :'✹',
+                \ 'Staged'    :'✚',
+                \ 'Untracked' :'✭',
+                \ 'Renamed'   :'➜',
+                \ 'Unmerged'  :'═',
+                \ 'Deleted'   :'✖',
+                \ 'Dirty'     :'✗',
+                \ 'Ignored'   :'☒',
+                \ 'Clean'     :'✔︎',
+                \ 'Unknown'   :'?',
+                \ }
+let g:NERDTreeGitStatusUseNerdFonts = 1 " you should install nerdfonts by yourself. default: 0
 
+"colorscheme
+colorscheme gruvbox-material
 " from coc-snippet
 "
  " " Use <C-j> for jump to next placeholder, it's default of coc.nvim
