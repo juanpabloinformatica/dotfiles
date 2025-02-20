@@ -1,31 +1,17 @@
 print("here")
 return {
-    -- Or with configuration
-    -- {
-    --     "projekt0n/github-nvim-theme",
-    --     name = "github-theme",
-    --     lazy = false, -- make sure we load this during startup if it is your main colorscheme
-    --     priority = 1000, -- make sure to load this before all the other start plugins
+    --     "Shatur/neovim-ayu",
     --     config = function()
-    --         -- require("github-theme").setup({
-    --         -- 	-- ...
-    --         -- })
-    --         vim.cmd("colorscheme github_dark_default")
+    --         require("ayu").setup({
+    --             mirage = false, -- Set to `true` to use `mirage` variant instead of `dark` for dark background.
+    --             overrides = {
+    --                 Normal = { bg = "#000000" },
+    --             },
+    --         })
+    --         vim.cmd([[colorscheme ayu]])
+    --         vim.cmd([[hi LineNr guifg=#b1b1b1]])
     --     end,
     -- },
-    {
-        "Shatur/neovim-ayu",
-        config = function()
-            require("ayu").setup({
-                mirage = false, -- Set to `true` to use `mirage` variant instead of `dark` for dark background.
-                overrides = {
-                    Normal = { bg = "#000000" },
-                },
-            })
-            vim.cmd([[colorscheme ayu]])
-            vim.cmd([[hi LineNr guifg=#b1b1b1]])
-        end,
-    },
     {
         "williamboman/mason.nvim",
         config = function()

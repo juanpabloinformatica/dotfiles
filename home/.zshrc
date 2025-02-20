@@ -144,3 +144,58 @@ if type rg &> /dev/null; then
   export FZF_CTRL_T_OPTS="--preview='less {}' --height=100% --bind shift-up:preview-page-up,shift-down:preview-page-down"
 fi
 
+arch=`uname -m | tr '[a-z]' '[A-Z]'`
+# Must be hardcoded to load PREFIX from root whithout expanding root's $HOME
+PREFIX=/home/jppm/X86_64
+export PREFIX
+export MANPATH=$PREFIX/usr/share/man:$MANPATH
+export PATH=$PREFIX/usr/bin:$PREFIX/usr/sbin:$PREFIX/usr/local/bin:$PREFIX/usr/local/sbin:$HOME/.local/bin:$PATH
+export OSM_CACHE_DIR=$PREFIX/var/cache
+#export IBPATH=$PREFIX/usr/sbin
+
+# to compile ibsim
+#export IB_DEV_DIR=$HOME/work/infiniband/git/bull/atlas/repositories/management
+
+export LD_LIBRARY_PATH=$PREFIX/usr/lib:$PREFIX/usr/lib64:$LD_LIBRARY_PATH
+export IBVIEW_LIBDIR=$PREFIX/usr/share/perl5/vendor_perl
+export IBGRAPH_LIBDIR=$PREFIX/usr/share/perl5/vendor_perl
+export IBMS_GRAPHITE_LIBDIR=$PREFIX/usr/share/perl5/vendor_perl
+
+# for make check_perl_syntax
+#export PERL5LIB=$PREFIX/usr/lib/perl/5.24.1/x86_64-linux-thread-multi
+export PERL5LIB=$PREFIX/usr/lib/perl/`perl -e 'printf "%vd", $^V;'`/x86_64-linux-thread-multi
+
+export CC=gcc
+
+# bash completion
+[ -e $PREFIX/etc/bash_completion.d/ibview ] && . $PREFIX/etc/bash_completion.d/ibview
+[ -e $PREFIX/etc/bash_completion.d/ibgraph ] && . $PREFIX/etc/bash_completion.d/ibgraph
+[ -e $PREFIX/etc/bash_completion.d/ibsnmp ] && . $PREFIX/etc/bash_completion.d/ibsnmp
+[ -e $PREFIX/etc/bash_completion.d/ibms-graphite ] && . $PREFIX/etc/bash_completion.d/ibms-graphite
+
+export IBVIEW_CONF_FILE=$PREFIX/etc/ibms/ibview.conf
+export IBMSDB_CONF_FILE=$PREFIX/etc/ibms/ibms_db.conf
+export CLUSTERDB_CONF_FILE=$PREFIX/etc/ibms/cluster_db.conf
+
+export PYTHONPATH=$PREFIX/usr/lib64/python2.7/site-packages
+
+alias ibms-database='sudo -E PREFIX=$PREFIX LD_LIBRARY_PATH=$LD_LIBRARY_PATH $PREFIX/usr/share/ibms/systemd/ibms-database.sh'
+alias ibms-database-filesystem='sudo -E PREFIX=$PREFIX LD_LIBRARY_PATH=$LD_LIBRARY_PATH $PREFIX/usr/share/ibms/systemd/ibms-database-filesystem.sh'
+
+export MIBDIRS=/usr/share/mibs/ietf:/usr/share/snmp/mibs
+export SNMP_PERSISTENT_DIR=/tmp
+
+# export PATH=/usr/java/jdk1.8.0_181-amd64/bin:$PATH
+
+# from reddit https://www.reddit.com/r/vim/comments/7tt4ts/painless_copy_paste_between_tmux_vim_and_system/
+# for easier copy paste
+# yanktoclipboard(){
+#     echo $BUFFER | xsel -i -b
+# }
+# pastefromclipboard(){
+#     RBUFFER=$(xsel -o -b </dev/null)$RBUFFER
+# }
+# zle -N yanktoclipboard
+# zle -N pastefromclipboard
+# bindkey -a 'yy' yanktoclipboard
+# bindkey -a 'p' pastefromclipboard
