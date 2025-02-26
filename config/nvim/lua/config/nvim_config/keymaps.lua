@@ -77,6 +77,10 @@ keymap.set("n", "<leader>D", function()
 	return require("telescope.builtin").lsp_type_definitions()
 end)
 
+keymap.set("n","<leader>fm",function()
+    return vim.lsp.buf.format()
+end)
+
 -- Tabs
 keymap.set("n", "<Tab>", "gt")
 keymap.set("n", "<S-Tab>", "gT")

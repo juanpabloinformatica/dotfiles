@@ -71,3 +71,5 @@ vim.g.mkdp_browser = "firefox"
 opt.wildmenu = true
 -- set gcr=a:blinkon0
 -- opt.gcr = "a:blinkon0"
+-- coloscheme
+vim.cmd([[colorscheme retrobox]])

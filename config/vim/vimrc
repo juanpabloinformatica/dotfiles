@@ -5,6 +5,8 @@ set encoding=utf-8
 set fileencoding=utf-8
 set fileencodings=utf-8
 "General
+"use system clipboard
+set clipboard=unnamedplus
 set signcolumn="yes"
 set undofile
 set mouse=a
@@ -95,7 +97,8 @@ Plug 'sainnhe/gruvbox-material'
 Plug 'preservim/nerdtree' |
             \ Plug 'Xuyuanp/nerdtree-git-plugin' |
             \ Plug 'ryanoasis/vim-devicons'
-
+" vim - tmux clipboard
+Plug 'roxma/vim-tmux-clipboard'
 call plug#end()
 
 
@@ -124,7 +127,7 @@ nnoremap <leader>cmc :call RunCmake()<CR>
 inoremap jj <ESC>:noh<CR>
 nnoremap <leader>e :NERDTreeFocus<CR>
 " nnoremap <C-n> :NERDTree<CR>
-nnoremap <C-n> :NERDTreeToggle<CR>
+nnoremap <C-n> :call NERDTreeToggleAndRefresh()<CR>
 " nnoremap <C-f> :NERDTreeFind<CR>
 
 
@@ -286,6 +289,12 @@ function! ShowDocumentation()
 	    call feedkeys('K', 'in')
   endif
 endfunction
+function NERDTreeToggleAndRefresh()
+  :NERDTreeToggle
+  if g:NERDTree.IsOpen()
+    :NERDTreeRefreshRoot
+  endif
+endfunction
 
 "Commands
 " --mines
@@ -327,6 +336,7 @@ command! -nargs=0 Format :call CocActionAsync('format')
 
 "Groups
 " mines
+autocmd FileType nerdtree setlocal relativenumber
 augroup mygroup
   autocmd!
     " Setup formatexpr specified filetype(s)
@@ -360,6 +370,7 @@ let g:NERDTreeGitStatusIndicatorMapCustom = {
                 \ 'Unknown'   :'?',
                 \ }
 let g:NERDTreeGitStatusUseNerdFonts = 1 " you should install nerdfonts by yourself. default: 0
+let g:NERDTreeShowLineNumbers=1
 
 "colorscheme
 colorscheme gruvbox-material

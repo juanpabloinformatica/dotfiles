@@ -49,7 +49,8 @@ M.config = function()
             view = {
                 width = 30,
                 side = "left",
-                signcolumn = "yes"
+                signcolumn = "yes",
+                relativenumber=true,
             },
             filesystem_watchers = {
                 ignore_dirs = {"node_modules"}
