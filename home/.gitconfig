@@ -1,19 +1,19 @@
 [user]
-	name = Juan Pablo Prada Mejia   
+	name = Juan Pablo Prada Mejia
 	email = juanpabloprada02112000@gmail.com
 	username = juanpabloinformatica
 [core]
-    editor = vim
+    editor = nvim
 [merge]
-	tool = "vim"
+	tool = "nvimdiff"
 [mergetool]
 	keepBackup = false
 	prompt = false
-[mergetool "vim"]
-	cmd = "vim -d -c \"wincmd l\" -c \"norm ]c\" \"$LOCAL\" \"$MERGED\" \"$REMOTE\""
+[mergetool "nvimdiff"]
+	cmd = "nvim -d -c \"wincmd l\" -c \"norm ]c\" \"$LOCAL\" \"$MERGED\" \"$REMOTE\""
 [diff]
-	tool = vimdiff
+	tool = nvimdiff
 [difftool]
-	prompt = false
+	prompt = true
 [init]
 	defaultBranch = main

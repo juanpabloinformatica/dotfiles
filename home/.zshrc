@@ -102,17 +102,13 @@ export PATH="/home/jppm/.local/share/bob/v0.10.1/bin:$PATH"
 # export PATH="/home/jppm/.tmux/plugins/tmux-resurrect/scripts:$PATH"
 
 
-# keybindings
-setxkbmap -option "ctrl:nocaps"
-bindkey -M viins 'jj' vi-cmd-mode
-
-export EDITOR=vim
+export EDITOR=nvim
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
-alias ll="exa --long --icons "
+# alias ll="exa --long --icons "
 # for fzf
 # Configure FZF.
 #
@@ -121,14 +117,5 @@ if type rg &> /dev/null; then
   export FZF_DEFAULT_OPTS='-m --color=dark'
   export FZF_CTRL_T_OPTS="--preview='less {}' --height=100% --bind shift-up:preview-page-up,shift-down:preview-page-down"
 fi
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-[ -f ~/Downloads/fzf-git.sh/fzf-git.sh ] && source ~/Downloads/fzf-git.sh/fzf-git.sh
-export FZF_DEFAULT_OPTS="-m --color=dark --bind ctrl-y:preview-up,ctrl-e:preview-down,ctrl-u:preview-half-page-up,ctrl-d:preview-half-page-down"
-export FZF_CTRL_T_OPTS="--preview 'bat -n --color=always {}'
-  --bind 'ctrl-/:change-preview-window(|hidden|)'"
-export FZF_ALT_C_OPTS="
-  --walker-skip .git,node_modules,venv,target
-  --preview 'tree  -C {} | head -200'
-  --walker-root ${HOME}"
-
 export PATH="/home/jppm/Downloads/vim/bin:$PATH"
+source $HOME/.zshrc_helpers.sh

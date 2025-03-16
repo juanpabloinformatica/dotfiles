@@ -8,7 +8,7 @@ TERM                  = "xterm-256color"
 [window]
 dimensions            = { columns = 0, lines = 0 }
 position              = { x = 0, y = 0 }
-padding               = { x = 2, y = 2 }
+padding               = { x = 0, y = 0 }
 dynamic_padding       = true
 decorations           = "None"
 opacity               = 1.0
@@ -25,68 +25,8 @@ bold_italic           = { family = "Iosevka NF", style = "Bold Italic" }
 size                  = 10 
 offset                = { x = 0, y = 0 }
 glyph_offset          = { x = 0, y = 0 }
-#
-# Colors (Ayu Dark)
-# Default colors
-# [colors.primary]
-# background = '#0A0E14'
-# background = '#000000'
-# foreground = '#B3B1AD'
 
-# Normal colors
-# [colors.normal]
-# black   = '#01060E'
-# # black   = '#000000'
-# red     = '#EA6C73'
-# green   = '#91B362'
-# yellow  = '#F9AF4F'
-# blue    = '#53BDFA'
-# magenta = '#FAE994'
-# cyan    = '#90E1C6'
-# white   = '#C7C7C7'
-#
-# # Bright colors
-# [colors.bright]
-# black   = '#686868'
-# red     = '#F07178'
-# green   = '#C2D94C'
-# yellow  = '#FFB454'
-# blue    = '#59C2FF'
-# magenta = '#FFEE99'
-# cyan    = '#95E6CB'
-# white   = '#FFFFFF'
 
-# colors srcery
-# [colors.primary]
-# background = "#1c1b19"
-# foreground = "#fce8c3"
-#
-# [colors.cursor]
-# text = "CellBackground"
-# cursor = "#FFFFFF"
-#
-#
-# [colors.normal]
-# black = "#1c1b19"
-# red = "#ef2f27"
-# green = "#519f50"
-# yellow = "#fbb829"
-# blue = "#2c78bf"
-# magenta = "#e02c6d"
-# cyan = "#0aaeb3"
-# white = "#baa67f"
-#
-# [colors.bright]
-# black = "#918175"
-# red = "#f75341"
-# green = "#98bc37"
-# yellow = "#fed06e"
-# blue = "#68a8e4"
-# magenta = "#ff5c8f"
-# cyan = "#2be4d0"
-# white = "#fce8c3"
-#transparent_background_colors = false
-#draw_bold_text_with_bright_colors = true
 
 # [bell]
 # animation             = "EaseOutExpo"
@@ -146,7 +86,8 @@ bindings = [
 ]
 [general]
 import = [
-    "~/.config/alacritty/themes/themes/gruvbox_material_hard_dark.toml"
+    # "~/.config/alacritty/themes/themes/gruvbox_material_hard_dark.toml"
+    "~/Documents/dotfiles/config/alacritty/themes/themes/ayu_dark.toml"
 ]
 
 
