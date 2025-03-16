@@ -1,0 +1,11 @@
+{
+  "diagnostic.virtualTextCurrentLineOnly": true,
+  "diagnostic.enable": true,
+  "diagnostic.virtualText": false,
+  "_comment": "This lines are needed to make bash languague server figure out how to find shellcheck and shfmt",
+  "bashIde.shfmt.path": "/home/jppm/.local/share/nvim/mason/bin/shfmt",
+  "bashIde.shellcheckPath": "/home/jppm/.local/share/nvim/mason/bin/shellcheck",
+  "markdown-preview-enhanced.previewTheme": "none.css",
+  "markdown-preview-enhanced.scrollSync": true,
+  "markdown-preview-enhanced.usePuppeteerCore": true
+}

@@ -1,0 +1,19 @@
+[user]
+	name = Juan Pablo Prada Mejia   
+	email = juanpabloprada02112000@gmail.com
+	username = juanpabloinformatica
+[core]
+    editor = vim
+[merge]
+	tool = "vim"
+[mergetool]
+	keepBackup = false
+	prompt = false
+[mergetool "vim"]
+	cmd = "vim -d -c \"wincmd l\" -c \"norm ]c\" \"$LOCAL\" \"$MERGED\" \"$REMOTE\""
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[init]
+	defaultBranch = main
