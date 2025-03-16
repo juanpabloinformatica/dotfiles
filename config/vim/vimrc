@@ -8,7 +8,7 @@ set fileencodings=utf-8
 
 "General
 set signcolumn="yes"
-set undofile
+" set undofile
 set mouse=a
 set showtabline=1
 set termguicolors
@@ -24,7 +24,7 @@ set statusline+=%{gutentags#statusline()}
 " set statusline=%f
 " this will set the undodir in the same project 
 " set undodir="."
-set undolevels=10000
+" set undolevels=10000
 set hlsearch
 "
 set expandtab
@@ -119,8 +119,10 @@ call plug#end()
 
 " This is isolated because it depends on the gruvbox plugin
 
-let g:gruvbox_material_background = 'hard'
-colorscheme gruvbox-material
+" let g:gruvbox_material_background = 'hard'
+" colorscheme gruvbox-material
+
+colorscheme murphy
 
 " Use release branch (recommended)
 

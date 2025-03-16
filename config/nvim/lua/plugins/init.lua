@@ -13,6 +13,13 @@ return {
     --     end,
     -- },
     {
+  -- 'f4z3r/gruvbox-material.nvim',
+  -- name = 'gruvbox-material',
+  -- lazy = false,
+  -- priority = 1000,
+  -- opts = {},
+  --   },
+    {
         "williamboman/mason.nvim",
         config = function()
             require("mason").setup()
@@ -83,7 +90,6 @@ return {
         event = "InsertEnter",
         opts = {},
     },
-
     -- Git
     {
         "lewis6991/gitsigns.nvim",
@@ -91,53 +97,8 @@ return {
             require("gitsigns").setup()
         end,
     },
-    -- { "tpope/vim-fugitive" },
-    -- Find Files with Telescope
-    -- {
-    -- 	"nvim-telescope/telescope-dap.nvim",
-    -- },
-    {
-        "nvim-telescope/telescope.nvim",
-        tag = "0.1.2",
-        dependencies = { "nvim-lua/plenary.nvim" },
-        config = require("plugins.plugins_configs.telescope").config,
-    },
-    -- sessions
-    {
-        { "tpope/vim-obsession" },
-    },
     -- vim marks
     { "kshenoy/vim-signature" },
-    -- better navigation
-    -- { "easymotion/vim-easymotion" },
-    -- debug
-    -- dependencie for dap-u
-    -- {
-    -- 	"mfussenegger/nvim-dap",
-    -- 	dependencies = {
-    -- 		"rcarriga/nvim-dap-ui",
-    -- 		dependencies = {
-    -- 			"mfussenegger/nvim-dap",
-    -- 			"nvim-neotest/nvim-nio",
-    -- 		},
-    -- 	},
-    -- 	config = require("plugins.plugins_configs.nvim-dap").config,
-    -- },
-    -- {
-    --     "jay-babu/mason-nvim-dap.nvim",
-    --     dependencies = {
-    --         "williamboman/mason.nvim",
-    --         "mfussenegger/nvim-dap",
-    --     },
-    --     config = require("plugins.plugins_configs.mason-nvim-dap").config,
-    -- },
-
-    -- {
-    -- 	"rcarriga/nvim-dap-ui",
-    -- 	dependencies = { "mfussenegger/nvim-dap", "nvim-neotest/nvim-nio" },
-    -- 	config = require("plugins.plugins_configs.dapui").config,
-    -- 	-- require("dapui").setup()
-    -- },
     -- nvim-treesitter
     {
         "nvim-treesitter/nvim-treesitter",
@@ -151,39 +112,14 @@ return {
         config = require("plugins.plugins_configs.lualine"),
     },
     -- Inactive windows
-    {
-        "blueyed/vim-diminactive",
-        config = function()
-            vim.cmd([[highlight ColorColumn ctermbg=0 guibg=#081C23]])
-        end,
-    },
+    -- {
+    --     "blueyed/vim-diminactive",
+    --     config = function()
+    --         vim.cmd([[highlight ColorColumn ctermbg=0 guibg=#081C23]])
+    --     end,
+    -- },
     -- zoomIn, zoomOut plugin
     {
         "troydm/zoomwintab.vim",
     },
-    -- install without yarn or npm
-    {
-        "iamcco/markdown-preview.nvim",
-        cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
-        build = "cd app && npx install",
-        init = function()
-            vim.g.mkdp_filetypes = { "markdown" }
-        end,
-        ft = { "markdown" },
-    },
-    -- undo tree
-    -- { "simnalamburt/vim-mundo" },
-    -- { "mbbill/undotree" },
-    -- tagbar useful for see the whole code structure and quick navigation
-    { "majutsushi/tagbar" },
-    -- for man page
-    --
-    { "ludwig/split-manpage.vim" },
-    -- for c/c++
-    -- { "vim-scripts/c.vim" },
-    -- {"sjl/bad"}
-    -- for generating tags
-    -- debugging
-    -- { "epheien/termdbg" },
-    -- },
 }
