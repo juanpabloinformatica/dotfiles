@@ -1,9 +1,9 @@
 -- Neovim Configuration Settings
 -- Set up various Neovim configuration settings for an enhanced editing experience.
 -- Define the mapleader (leader key) to be a space.
-vim.g.mapleader = " "
 -- Uncomment and customize the maplocalleader if needed.
 -- vim.g.maplocalleader = "\\"
+vim.g.mapleader = " "
 local opt = vim.opt
 -- General Interface and Display Settings
 -- Encoding
@@ -17,7 +17,7 @@ opt.splitbelow = true
 opt.splitright = true
 opt.termguicolors = true
 opt.timeoutlen = 400 -- Set the time in milliseconds for which mappings are awaited.
-opt.undofile = true  -- Enable persistent undo.
+-- opt.undofile = true  -- Enable persistent undo.
 opt.number = true
 opt.numberwidth = 2
 opt.relativenumber = true
@@ -43,3 +43,4 @@ opt.undodir = os.getenv("HOME") .. "/.nvim/undo"
 opt.undolevels = 10000
 opt.wildmenu = true
 vim.cmd([[colorscheme murphy]])
+vim.g.netrw_bufsettings = 'noma nomod nu rnu nobl nowrap ro'
