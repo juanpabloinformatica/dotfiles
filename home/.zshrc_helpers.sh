@@ -28,16 +28,16 @@ alias ll="ls -alh"
 
 # useful_functions
 function init_server() {
-    PORT=7777
-    if [[ $1 == "" ]]; then
-        python3 -m http.server
-        python3 -m http.server --port $PORT
-    else
-        python3 -m http.server --directory "$1" $PORT
-    fi
+	PORT=7777
+	if  [[ $1 == "" ]]; then
+		python3     -m http.server
+		python3     -m http.server --port $PORT
+	else
+		python3     -m http.server --directory "$1" $PORT
+	fi
 }
 function gck() {
-    git branch | sed -E 's/^.//g' | awk '{print $1}' | fzf --preview 'git show {}' --print0 | xargs -0 git checkout
+	git  branch | sed -E 's/^.//g' | awk '{print $1}' | fzf --preview 'git show {}' --print0 | xargs -0 git checkout
 }
 
 #

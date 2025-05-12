@@ -22,7 +22,7 @@ normal                = { family = "Iosevka NF", style = "Regular" }
 bold                  = { family = "Iosevka NF", style = "Bold" }
 italic                = { family = "Iosevka NF", style = "Italic" }
 bold_italic           = { family = "Iosevka NF", style = "Bold Italic" }
-size                  = 10 
+size                  = 10
 offset                = { x = 0, y = 0 }
 glyph_offset          = { x = 0, y = 0 }
 
@@ -87,7 +87,7 @@ bindings = [
 [general]
 import = [
     # "~/.config/alacritty/themes/themes/gruvbox_material_hard_dark.toml"
-    "~/Documents/dotfiles/config/alacritty/themes/themes/ayu_dark.toml"
+    #"~/Documents/dotfiles/config/alacritty/themes/themes/ayu_dark.toml"
 ]
 
 

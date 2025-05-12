@@ -225,7 +225,7 @@ bindsym Ctrl+Shift+Print exec --no-startup-id maim --format=png --select | xclip
 exec --no-start-up-id feh --bg-scale /home/jpradamejia/Downloads/samurai.jpeg
 
 ## Enabling touchpad tapping
-exec xinput set-prop "VEN_0488:00 0488:104B Touchpad" "libinput Tapping Enabled" 1 
+exec xinput set-prop "VEN_0488:00 0488:104B Touchpad" "libinput Tapping Enabled" 1
 
 # set $black #1C1B19
 # set $bright_black #918175
