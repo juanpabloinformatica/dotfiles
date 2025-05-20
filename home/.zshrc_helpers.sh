@@ -40,4 +40,20 @@ function gck() {
     git branch | sed -E 's/^.//g' | awk '{print $1}' | fzf --preview 'git show {}' --print0 | xargs -0 git checkout
 }
 
+function gri() {
+
+    # test -d "$(find . -maxdepth 1 -type d -name "*.git*")" && echo "exist"
+    if [[ -d "$(find . -maxdepth 1 -type d -name "*.git*")" && -n $1 ]]; then
+        echo "Executing rebase"
+        git -c "rebase.instructionFormat=(%an <%ae>) %s" rebase -i "$1"
+    else
+        echo "This is not a git repository or not hash passed"
+    fi
+
+}
+
 #
+#useful commands
+# getting an specific file or folder from github
+# git clone --no-checkout --depth=1 <repository_url>
+# git checkout <branch> -- <    [folder|file] wanted>

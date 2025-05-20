@@ -42,5 +42,5 @@ opt.undofile = true
 opt.undodir = os.getenv("HOME") .. "/.nvim/undo"
 opt.undolevels = 10000
 opt.wildmenu = true
-vim.cmd([[colorscheme murphy]])
+-- vim.cmd([[colorscheme murphy]])
 vim.g.netrw_bufsettings = 'noma nomod nu rnu nobl nowrap ro'

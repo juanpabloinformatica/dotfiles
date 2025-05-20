@@ -1,4 +1,10 @@
 return {
+	{
+		"bettervim/yugen.nvim",
+		config = function()
+			vim.cmd.colorscheme("yugen")
+		end,
+	},
 	{ "nvim-lua/plenary.nvim" },
 	{
 		"williamboman/mason.nvim",
@@ -9,7 +15,7 @@ return {
 	{
 		"williamboman/mason-lspconfig.nvim",
 		config = function()
-			require("mason-lspconfig").setup()
+			require("mason-lspconfig").setup({ automatic_enable = false })
 		end,
 	},
 	{ "neovim/nvim-lspconfig", config = require("plugins.plugins_configs.nvim-lspconfig").config },
