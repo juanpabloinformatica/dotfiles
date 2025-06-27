@@ -1,17 +1,13 @@
 print("here")
 return {
-    --     "Shatur/neovim-ayu",
-    --     config = function()
-    --         require("ayu").setup({
-    --             mirage = false, -- Set to `true` to use `mirage` variant instead of `dark` for dark background.
-    --             overrides = {
-    --                 Normal = { bg = "#000000" },
-    --             },
-    --         })
-    --         vim.cmd([[colorscheme ayu]])
-    --         vim.cmd([[hi LineNr guifg=#b1b1b1]])
-    --     end,
-    -- },
+    {"sainnhe/gruvbox-material",
+    config = function()
+        vim.cmd([[ colorscheme gruvbox-material ]])
+        vim.cmd([[ set background=dark]])
+    end
+        
+
+    },
     {
         "williamboman/mason.nvim",
         config = function()
@@ -21,15 +17,10 @@ return {
     {
         "williamboman/mason-lspconfig.nvim",
         config = function()
-            require("mason-lspconfig").setup()
+            require("mason-lspconfig").setup({ automatic_enable = false })
         end,
     },
     { "neovim/nvim-lspconfig",              config = require("plugins.plugins_configs.nvim-lspconfig").config },
-    -- Uncomment and configure Java LSP if needed
-    -- {
-    --     "mfussenegger/nvim-jdtls",
-    --     config = require("plugins.plugins_configs.nvim-jdtls").config,
-    -- },
 
     -- Hrsh7th Code Completion Suite
     { "hrsh7th/cmp-nvim-lsp" },
@@ -46,7 +37,16 @@ return {
             require("nvim-web-devicons").setup({ override_by_filename = { [".astro"] = { icon = "A" } } })
         end,
     },
-    { "nvim-tree/nvim-tree.lua",         config = require("plugins.plugins_configs.nvim-tree").config },
+    -- { "nvim-tree/nvim-tree.lua",         config = require("plugins.plugins_configs.nvim-tree").config },
+    -- fzf
+    {
+        "ibhagwan/fzf-lua",
+        -- optional for icon support
+        dependencies = { "nvim-tree/nvim-web-devicons" },
+        -- or if using mini.icons/mini.nvim
+        -- dependencies = { "echasnovski/mini.icons" },
+        opts = {},
+    },
 
     -- Code Formatting
     { "jose-elias-alvarez/null-ls.nvim", config = require("plugins.plugins_configs.null-ls").config },
@@ -66,78 +66,38 @@ return {
             require("colorizer").setup()
         end,
     },
-
-    -- Indenting
-    -- {
-    --     "lukas-reineke/indent-blankline.nvim",
-    --     main = "ibl",
-    --     opts = {},
-    --     config = function()
-    --         require("ibl").setup()
-    --     end,
-    -- },
-
     -- Auto-pairs
     {
         "windwp/nvim-autopairs",
         event = "InsertEnter",
         opts = {},
     },
-
     -- Git
     {
         "lewis6991/gitsigns.nvim",
         config = function()
-            require("gitsigns").setup()
+            require("gitsigns").setup({
+                signs = {
+                    add = { text = "+" },
+                    change = { text = "~" },
+                    delete = { text = "_" },
+                    topdelete = { text = "‾" },
+                    changedelete = { text = "~_" },
+                    untracked = { text = "┆" },
+                },
+                signs_staged = {
+                    add = { text = "+" },
+                    change = { text = "~" },
+                    delete = { text = "_" },
+                    topdelete = { text = "‾" },
+                    changedelete = { text = "~_" },
+                    untracked = { text = "┆" },
+                },
+            })
         end,
-    },
-    -- { "tpope/vim-fugitive" },
-    -- Find Files with Telescope
-    -- {
-    -- 	"nvim-telescope/telescope-dap.nvim",
-    -- },
-    {
-        "nvim-telescope/telescope.nvim",
-        tag = "0.1.2",
-        dependencies = { "nvim-lua/plenary.nvim" },
-        config = require("plugins.plugins_configs.telescope").config,
-    },
-    -- sessions
-    {
-        { "tpope/vim-obsession" },
     },
     -- vim marks
     { "kshenoy/vim-signature" },
-    -- better navigation
-    -- { "easymotion/vim-easymotion" },
-    -- debug
-    -- dependencie for dap-u
-    -- {
-    -- 	"mfussenegger/nvim-dap",
-    -- 	dependencies = {
-    -- 		"rcarriga/nvim-dap-ui",
-    -- 		dependencies = {
-    -- 			"mfussenegger/nvim-dap",
-    -- 			"nvim-neotest/nvim-nio",
-    -- 		},
-    -- 	},
-    -- 	config = require("plugins.plugins_configs.nvim-dap").config,
-    -- },
-    -- {
-    --     "jay-babu/mason-nvim-dap.nvim",
-    --     dependencies = {
-    --         "williamboman/mason.nvim",
-    --         "mfussenegger/nvim-dap",
-    --     },
-    --     config = require("plugins.plugins_configs.mason-nvim-dap").config,
-    -- },
-
-    -- {
-    -- 	"rcarriga/nvim-dap-ui",
-    -- 	dependencies = { "mfussenegger/nvim-dap", "nvim-neotest/nvim-nio" },
-    -- 	config = require("plugins.plugins_configs.dapui").config,
-    -- 	-- require("dapui").setup()
-    -- },
     -- nvim-treesitter
     {
         "nvim-treesitter/nvim-treesitter",
@@ -150,40 +110,28 @@ return {
         dependencies = { "nvim-tree/nvim-web-devicons" },
         config = require("plugins.plugins_configs.lualine"),
     },
-    -- Inactive windows
-    {
-        "blueyed/vim-diminactive",
-        config = function()
-            vim.cmd([[highlight ColorColumn ctermbg=0 guibg=#081C23]])
-        end,
-    },
-    -- zoomIn, zoomOut plugin
     {
         "troydm/zoomwintab.vim",
     },
-    -- install without yarn or npm
+    -- perl regex syntax
+    -- {'othree/eregex.vim'}
+    --
     {
         "iamcco/markdown-preview.nvim",
         cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
-        build = "cd app && npx install",
+        build = "cd app && npm install",
         init = function()
             vim.g.mkdp_filetypes = { "markdown" }
         end,
         ft = { "markdown" },
     },
-    -- undo tree
-    -- { "simnalamburt/vim-mundo" },
-    -- { "mbbill/undotree" },
-    -- tagbar useful for see the whole code structure and quick navigation
-    { "majutsushi/tagbar" },
-    -- for man page
-    --
-    { "ludwig/split-manpage.vim" },
-    -- for c/c++
-    -- { "vim-scripts/c.vim" },
-    -- {"sjl/bad"}
-    -- for generating tags
-    -- debugging
-    -- { "epheien/termdbg" },
+    -- {
+    -- 	"MeanderingProgrammer/render-markdown.nvim",
+    -- 	-- dependencies = { "nvim-treesitter/nvim-treesitter", "echasnovski/mini.nvim" }, -- if you use the mini.nvim suite
+    -- 	-- dependencies = { 'nvim-treesitter/nvim-treesitter', 'echasnovski/mini.icons' }, -- if you use standalone mini plugins
+    -- 	dependencies = { "nvim-treesitter/nvim-treesitter", "nvim-tree/nvim-web-devicons" }, -- if you prefer nvim-web-devicons
+    -- 	---@module 'render-markdown'
+    -- 	---@type render.md.UserConfig
+    -- 	opts = {},
     -- },
 }
