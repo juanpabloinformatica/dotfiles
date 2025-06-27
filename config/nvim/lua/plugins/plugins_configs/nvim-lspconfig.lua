@@ -34,6 +34,7 @@ M.config = function()
 	lspconfig.vimls.setup({ on_attach })
 
 	lspconfig.marksman.setup({ on_attach })
+	lspconfig.texlab.setup({ on_attach })
 	-- nginx
 end
 

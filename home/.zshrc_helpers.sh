@@ -1,7 +1,7 @@
 # Setting_fzf
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-[ -f ~/Downloads/fzf-git.sh/fzf-git.sh ] && source ~/Downloads/fzf-git.sh/fzf-git.sh
+[ -f ~/Downloads/software/fzf-git.sh/fzf-git.sh ] && source ~/Downloads/software/fzf-git.sh/fzf-git.sh
 
 export FZF_DEFAULT_OPTS="-m --color=dark --bind ctrl-y:preview-up,ctrl-e:preview-down,ctrl-u:preview-half-page-up,ctrl-d:preview-half-page-down"
 export FZF_CTRL_T_OPTS="--preview 'bat -n --color=always {}'

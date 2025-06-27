@@ -18,7 +18,12 @@ set $mod Mod4
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 font pango:Iosevka NF 8
-
+#VARIABLES --> this I will change dynamically with sed{}
+set $watcherscript /home/jppm/Documents/scripts/watcher.sh
+set $script_path /home/jppm/Documents/scripts
+set $background_image /home/jppm/Pictures/samurai.jpg
+# adding script watcher
+exec --no-startup-id bash $watcherscript -s $script_path
 # Adding background
 # exec --no-startup-id feh --bg-scale ~/Pictures/samurai_gruvbox.jpg
 exec --no-startup-id feh --bg-scale ~/Pictures/samurai.jpg
@@ -298,7 +303,7 @@ exec xinput set-prop "VEN_0488:00 0488:104B Touchpad" "libinput Tapping Enabled"
 # gaps bottom 0
 ##############################
 # border_radius 4
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 3
 #####################
 ###### ----- gruvbox theme #######
  #set $bg #282828
@@ -310,7 +315,7 @@ for_window [class="^.*"] border pixel 2
  #set $aqua #689d68
  #set $gray #a89984
  #set $darkgray #1d2021
- #set $lightgray #bdae93
+ set $white #ffffff
 
 bar {
     position bottom
@@ -331,7 +336,7 @@ bar {
 }
 
 # class                 border|backgr|text|indicator|child_border
-#client.focused          $lightgray $lightgray $bg $purple $darkgray
+client.focused          $white $lightgray $bg $purple $darkgray
 #client.focused_inactive $darkgray $darkgray $lightgray $purple $darkgray
 #client.unfocused        $darkgray $darkgray $lightgray $purple $darkgray
 #client.urgent           $red $red $white $red $red
