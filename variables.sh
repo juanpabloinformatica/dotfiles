@@ -1,0 +1,11 @@
+#! /usr/bin/bash
+# shellcheck disable=SC2034
+DOTFILE_HOME_CONFIG="home"
+DOTFILE_CONFIG_CONFIG="config"
+DOTFILE_PICTURE_CONFIG="pictures"
+DOTFILE_GIT=".git"
+DOTFILE_PATH="${DOCUMENTS_PATH}/dotfiles"
+SYMLINK_CONFIG="$HOME/.config"
+SYMLINK_HOME="$HOME"
+SYMLINK_PICTURES="$HOME/Pictures" 
+ALACRITTY_PATH="$DOTFILE_HOME_CONFIG/alacritty/themes"
