@@ -63,12 +63,8 @@ Mine Configuration files, and how the manage of it will work.
 ### First one
 
 ```
- #clone repository with pc_setup scripts
- git clone https://github.com/juanpabloinformatica/pc_setup.git
- #cd into it
- cd pc_setup
  #execute
- bash ./src/script_dotfiles.sh $(whoami)
+ ./script_dotfiles.sh
 ```
 
 ### Second one
