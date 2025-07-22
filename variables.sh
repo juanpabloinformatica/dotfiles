@@ -1,5 +1,6 @@
 #! /usr/bin/bash
 # shellcheck disable=SC2034
+DOCUMENTS_PATH="${HOME}/Documents"
 DOTFILE_HOME_CONFIG="home"
 DOTFILE_CONFIG_CONFIG="config"
 DOTFILE_PICTURE_CONFIG="pictures"
