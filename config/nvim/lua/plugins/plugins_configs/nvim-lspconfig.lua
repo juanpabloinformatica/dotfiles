@@ -19,7 +19,10 @@ M.config = function()
 	-- Backend languages LSP support --
 	-- Uncomment and configure the desired language servers.
 	-- Example: lspconfig.clangd.setup({ on_attach = function(client) ... end })
-	lspconfig.clangd.setup({ on_attach })
+	-- lspconfig.clangd.setup({on_attach})
+	lspconfig.clangd.setup({
+		on_attach = on_attach,
+	})
 	-- lspconfig.jdtls.setup({ on_attach })
 	lspconfig.pyright.setup({ on_attach })
 	lspconfig.tsserver.setup({ on_attach })
