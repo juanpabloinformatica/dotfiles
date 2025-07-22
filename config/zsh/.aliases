@@ -1,0 +1,13 @@
+#Aliases 
+
+alias ls='ls --color'
+alias cp='cp -iv'
+alias mv='mv -iv'
+alias rm='rm -iv'
+alias la='ls -alh'
+
+alias grep='grep  --color=auto'
+# alias grep='grep -Pi --color=auto'
+
+
+

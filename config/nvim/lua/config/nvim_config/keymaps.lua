@@ -120,3 +120,7 @@ end)
 keymap.set("n","<leader>q", function()
 	return vim.diagnostic.setloclist()
 end)
+
+-- for nvim-tree
+keymap.set("n","<leader>e",":NvimTreeFocus<CR>")
+keymap.set("n","<C-n>",":NvimTreeToggle<CR>")

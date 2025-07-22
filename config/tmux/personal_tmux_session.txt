@@ -1,0 +1,23 @@
+pane	11	0	0	:-	0	jppm	:/home/jppm/Documents/sharpening/dsa	1	zsh	:
+pane	11	1	1	:*	0	jppm	:/home/jppm	1	zsh	:
+pane	dayTracker	0	1	:*	0	tmux	:/home/jppm/.local/share/tmux/resurrect	1	zsh	:
+pane	knowledge	0	1	:##*	0	jppm	:/home/jppm/Documents/knowledge	1	zsh	:
+pane	linux_cli	0	1	:##*	0	tmux	:/home/jppm/Documents/sharpening/shellScripting/text_processing/mouseless-dev-youtube/09_find	1	zsh	:
+pane	nand2tetris	0	1	:##*	0	jppm	:/home/jppm/Documents/projects/nand2tetris	1	zsh	:
+pane	nand2tetris	1	0	:##-	0	jppm	:/home/jppm/Documents/courses/nand2tetris/tools	1	zsh	:
+pane	pcConfig	0	0	:	0	tmux	:/home/jppm/Documents/dotfiles	1	zsh	:
+pane	pcConfig	1	0	:-	0	jppm	:/home/jppm/Documents/projects/pcSetup	1	zsh	:
+pane	pcConfig	2	1	:*	0	jppm	:/home/jppm/.local/share/tmux/resurrect	1	zsh	:
+pane	sharpenning	0	1	:##*	0	jppm	:/home/jppm/Documents/sharpening/shellScripting/text_processing/sed	1	zsh	:
+window	11	0	:dsa	0	:-	d711,192x40,0,0,22	off
+window	11	1	:zsh	1	:*	d712,192x40,0,0,23	:
+window	dayTracker	0	:zsh	1	:*	adc0,192x40,0,0,3	:
+window	knowledge	0	:zsh	1	:##*	5712,192x40,0,0,13	:
+window	linux_cli	0	:zsh	1	:##*	5713,192x40,0,0,14	:
+window	nand2tetris	0	:zsh	1	:##*	5714,192x40,0,0,15	:
+window	nand2tetris	1	:zsh	0	:##-	5715,192x40,0,0,16	:
+window	pcConfig	0	:dotfiles	0	:	5716,192x40,0,0,17	off
+window	pcConfig	1	:pcSetup	0	:-	5717,192x40,0,0,18	off
+window	pcConfig	2	:scripts	1	:*	5718,192x40,0,0,19	off
+window	sharpenning	0	:zsh	1	:##*	d70f,192x40,0,0,20	:
+state	11	dayTracker

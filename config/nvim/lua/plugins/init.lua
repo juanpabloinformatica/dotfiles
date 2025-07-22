@@ -1,27 +1,30 @@
 return {
-	-- {
-	-- 	"Shatur/neovim-ayu",
-	-- 	config = function()
-	-- 		-- Add
-	-- 		-- commentMore
-	-- 		-- actions
-	-- 		require("ayu").setup({
-	-- 			mirage = false, -- Set to `true` to use `mirage` variant instead of `dark` for dark background.
-	-- 			overrides = {
-	-- 				Normal = { bg = "#000000" },
-	-- 			},
-	-- 		})
-	-- 		vim.cmd([[colorscheme ayu]])
-	-- 		vim.cmd([[hi LineNr guifg=#b1b1b1]])
-	-- 	end,
-	-- },
+
+	-- colorscheme
 	{
-		"bettervim/yugen.nvim",
+		"Shatur/neovim-ayu",
 		config = function()
-			vim.cmd.colorscheme("yugen")
+			-- Add
+			-- commentMore
+			-- actions
+			require("ayu").setup({
+				mirage = false, -- Set to `true` to use `mirage` variant instead of `dark` for dark background.
+				overrides = {
+					Normal = { bg = "#000000" },
+				},
+			})
+			vim.cmd([[colorscheme ayu]])
+			vim.cmd([[hi LineNr guifg=#b1b1b1]])
 		end,
 	},
+	-- {
+	-- 	"bettervim/yugen.nvim",
+	-- 	config = function()
+	-- 		vim.cmd.colorscheme("yugen")
+	-- 	end,
+	-- },
 	{ "nvim-lua/plenary.nvim" },
+	-- ------lsp management -----
 	{
 		"williamboman/mason.nvim",
 		config = function()
@@ -35,6 +38,8 @@ return {
 		end,
 	},
 	{ "neovim/nvim-lspconfig", config = require("plugins.plugins_configs.nvim-lspconfig").config },
+
+	-- ------ End lsp management -----
 
 	-- Hrsh7th Code Completion Suite
 	{ "hrsh7th/cmp-nvim-lsp" },
@@ -51,7 +56,7 @@ return {
 			require("nvim-web-devicons").setup({ override_by_filename = { [".astro"] = { icon = "A" } } })
 		end,
 	},
-	-- { "nvim-tree/nvim-tree.lua",         config = require("plugins.plugins_configs.nvim-tree").config },
+	{ "nvim-tree/nvim-tree.lua", config = require("plugins.plugins_configs.nvim-tree").config },
 	-- fzf
 	{
 		"ibhagwan/fzf-lua",
@@ -124,6 +129,8 @@ return {
 		dependencies = { "nvim-tree/nvim-web-devicons" },
 		config = require("plugins.plugins_configs.lualine"),
 	},
+	-- this is for zooming individual windows
+	-- for focus
 	{
 		"troydm/zoomwintab.vim",
 	},
@@ -140,4 +147,12 @@ return {
 		ft = { "markdown" },
 	},
 	-- {'tpope/vim-surround'},
+	--
+	-- nvim rooter -for better navigation with fzf
+	{
+		"notjedi/nvim-rooter.lua",
+		config = function()
+			return require("nvim-rooter").setup()
+		end,
+	},
 }
