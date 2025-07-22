@@ -46,15 +46,15 @@ function setSymlink() {
     lastFileName="$(basename "$dirFile")"
     if [[ "$typeFile" =~ $DOTFILE_HOME_CONFIG ]]; then
         if [[ ! -L "$SYMLINK_HOME/$lastFileName" ]]; then
-            ln -s "$dirFile" "$SYMLINK_HOME/$lastFileName"
+            ln -sf "$dirFile" "$SYMLINK_HOME/$lastFileName"
         fi
     elif [[ "$typeFile" =~ $DOTFILE_CONFIG_CONFIG ]]; then
         if [[ ! -L "$SYMLINK_CONFIG/$lastFileName" ]]; then
-            ln -s "$dirFile" "$SYMLINK_CONFIG/$lastFileName"
+            ln -sf "$dirFile" "$SYMLINK_CONFIG/$lastFileName"
         fi
     else
         if [[ ! -L "$SYMLINK_PICTURES/$lastFileName" ]]; then
-            ln -s "$dirFile" "$SYMLINK_PICTURES/$lastFileName"
+            ln -sf "$dirFile" "$SYMLINK_PICTURES/$lastFileName"
         fi
     fi
 }
@@ -67,7 +67,9 @@ function setDotfiles() {
     local -i dotfilesArrayLength=${#dotfilesArray[@]}
     for ((i = 0; i < dotfilesArrayLength; i += 1)); do
         # For each file I will create the symlink
-        mapfile -t filesInDirectory < <(find "${dotfilesArray[i]}" -maxdepth 1 '!' -path "${dotfilesArray[i]}")
+        local rp
+        rp="$(realpath "${dotfilesArray[i]}")"
+        mapfile -t filesInDirectory < <(find "${rp}" -maxdepth 1 '!' -path "${dotfilesArray[i]}" '!' -path "*.gitignore")
         local filesInDirectoryLength=${#filesInDirectory[@]}
         for ((j = 0; j < filesInDirectoryLength; j += 1)); do
             local resultType
