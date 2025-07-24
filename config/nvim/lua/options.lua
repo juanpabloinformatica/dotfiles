@@ -1,12 +1,10 @@
--- Neovim Configuration Settings
--- Set up various Neovim configuration settings for an enhanced editing experience.
--- Define the mapleader (leader key) to be a space.
--- Uncomment and customize the maplocalleader if needed.
--- vim.g.maplocalleader = "\\"
-vim.g.mapleader = " "
-local opt = vim.opt
--- General Interface and Display Settings
--- Encoding
+require "nvchad.options"
+
+-- add yours here!
+
+-- local o = vim.o
+-- o.cursorlineopt ='both' -- to enable cursorline!
+local opt = vim.opt;
 opt.encoding = "utf-8"
 opt.fileencoding = "utf-8"
 opt.fileencodings = "utf-8"
@@ -27,9 +25,9 @@ opt.shiftwidth = 4
 opt.smartindent = true
 opt.tabstop = 4
 opt.softtabstop = 4
--- opt.fillchars = { eob = " " } -- Customize characters to be displayed at the end of the buffer.
+opt.fillchars = { eob = " " } -- Customize characters to be displayed at the end of the buffer.
 opt.ignorecase = true
-opt.smartcase = true -- Use smart case for searches.
+opt.smartcase = true          -- Use smart case for searches.
 opt.updatetime = 250
 --folding for nicer readability
 -- opt.foldmethod="indent"
@@ -43,16 +41,13 @@ opt.undodir = os.getenv("HOME") .. "/.nvim/undo"
 opt.undolevels = 10000
 opt.wildmenu = true
 -- vim.cmd([[colorscheme murphy]])
-vim.g.netrw_bufsettings = "noma nomod nu rnu nobl nowrap ro"
+-- vim.g.netrw_bufsettings = "noma nomod nu rnu nobl nowrap ro"
 -- vim.opt.completeopt={"menuone","noselect","popup"}
 -- fold
 
-opt.foldmethod = "expr"
-opt.foldexpr = "nvim_treesitter#foldexpr()"
+-- opt.foldmethod = "expr"
+-- opt.foldexpr = "nvim_treesitter#foldexpr()"
 
 
--- for macros
-opt.lazyredraw = true
--- vim.o.list = true
--- opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
-vim.o.inccommand='split'
+
+

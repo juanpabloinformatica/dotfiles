@@ -1,5 +1,12 @@
--- local vim
-vim.g.mapleader = " "
+require "nvchad.mappings"
+
+-- add yours here
+
+local nomap = vim.keymap.del
+nomap("n","<tab>")
+nomap("n","<S-tab>")
+
+local map = vim.keymap.set
 local keymap = vim.keymap
 -- Better Buffer Navigation
 keymap.set("n", "<C-h>", "<C-w>h")
@@ -117,10 +124,13 @@ end)
 keymap.set("n", "gW", function()
 	return vim.lsp.buf.signature_help()
 end)
-keymap.set("n","<leader>q", function()
-	return vim.diagnostic.setloclist()
-end)
 
--- for nvim-tree
-keymap.set("n","<leader>e",":NvimTreeFocus<CR>")
-keymap.set("n","<C-n>",":NvimTreeToggle<CR>")
+keymap.set("n","<leader>q", function()
+	return vim.diagnostics.setloclist()
+end)
+-- nomap("n","<TAB>")
+
+-- nomap("n","<TAB>")
+
+
+-- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
