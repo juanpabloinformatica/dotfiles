@@ -57,13 +57,16 @@ source "${ZDOTDIR}/.git_prompt.zsh"
 #personal_config
 source "${ZDOTDIR}/.vim_mode_config.zsh"
 
+#bob_nvim
+source "${ZDOTDIR}/.bob"
+
 #plugins_config
 
 # own_config
 source "${ZDOTDIR}/.zshrc_helpers.sh"
 
 # adding binaries
-export PATH="/home/jppm/.local/share/bob/v0.10.1/bin:$PATH"
+export PATH="/home/jppm/.local/share/bob/nvim-bin/:$PATH"
 
 
 # Put by fzf

@@ -49,15 +49,15 @@ return {
     { "hrsh7th/cmp-path" },
     { "hrsh7th/cmp-buffer" },
     { "hrsh7th/vim-vsnip" },
-    -- { "hrsh7th/nvim-cmp", config = require("plugins.plugins_configs.nvim-cmp").config },
-    { "hrsh7th/nvim-cmp" },
+    { "hrsh7th/nvim-cmp",                   config = require("plugins.plugins_configs.nvim-cmp").config },
+    -- { "hrsh7th/nvim-cmp" },
     {
         "nvim-tree/nvim-web-devicons",
         config = function()
             require("nvim-web-devicons").setup()
         end,
     },
-    { "nvim-tree/nvim-tree.lua",         config = require("plugins.plugins_configs.nvim-tree").config },
+    { "nvim-tree/nvim-tree.lua", config = require("plugins.plugins_configs.nvim-tree").config },
     -- fzf
     {
         "ibhagwan/fzf-lua",
@@ -69,7 +69,7 @@ return {
     },
 
     -- Code Formatting
-    { "jose-elias-alvarez/null-ls.nvim", config = require("plugins.plugins_configs.null-ls").config },
+    -- { "jose-elias-alvarez/null-ls.nvim", config = require("plugins.plugins_configs.null-ls").config },
 
     -- Commenting
     {

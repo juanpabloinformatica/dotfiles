@@ -62,6 +62,12 @@ function gri() {
 #
 # zle -N open_lazygit
 # bindkey '^g' open_lazygit
+function sshServer(){
+    local server=$*
+    local background_local='printf "\e]11;#000000\e\\"'
+    local background_server='printf "\e]11;#282828\e\\"'
+     eval ${background_server};ssh ${server};eval ${background_local}
+}
 
 export PATH="$HOME/.local/share/nvim/mason/bin:${PATH}"
 
