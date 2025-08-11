@@ -76,3 +76,9 @@ stow --target=$HOME $HOME/Documents/home
 stow --target=$HOME/.config $HOME/Documents/config
 stow --target=$HOME/Pictures $HOME/Documents/Pictures
 ```
+
+### Third one (favorite)
+```
+# Execute 
+make -f dotfiles.mk
+```
