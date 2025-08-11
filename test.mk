@@ -10,8 +10,6 @@ endif
 endif
 ifneq ( , $(shell which docker))
 test-docker:
-	docker run  --rm -it archlinux:latest /bin/bash -c  "pacman  -Syu --noconfirm && pacman  -Sy --noconfirm archlinux-keyring && pacman  -S --noconfirm  make nvim tmux git && git clone https://github.com/juanpabloinformatica/dotfiles.git && cd dotfiles && make -f dotfiles.mk start";
-	
-		
+	docker run  -it archlinux:latest /bin/bash -c  "pacman  -Syu --noconfirm && pacman  -Sy --noconfirm archlinux-keyring && pacman  -S --noconfirm  which xdg-user-dirs make nvim tmux git && xdg-user-dirs-update && git clone https://github.com/juanpabloinformatica/dotfiles.git $$HOME/Documents/dotfiles && cd $$HOME/Documents/dotfiles && make -f dotfiles.mk start && /bin/bash";
 endif
 
