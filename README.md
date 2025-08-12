@@ -8,10 +8,11 @@ Mine Configuration files, and how the manage of it will work.
 
 ```
 .
+├── .bake.toml
 ├── config
 │   ├── alacritty
-│   │   └── alacritty.toml
-│   ├── bat
+│   │   ├── alacritty.toml
+│   │   └── themes
 │   ├── git
 │   │   └── .gitconfig
 │   ├── i3
@@ -20,37 +21,43 @@ Mine Configuration files, and how the manage of it will work.
 │   │   ├── init.lua
 │   │   ├── lazy-lock.json
 │   │   ├── lua
-│   │   │   ├── config
-│   │   │   │   └── nvim_config
-│   │   │   │       ├── keymaps.lua
-│   │   │   │       ├── lazy.lua
-│   │   │   │       └── options.lua
-│   │   │   └── plugins
-│   │   │       ├── init.lua
-│   │   │       └── plugins_configs
-│   │   │           ├── lualine.lua
-│   │   │           ├── null-ls.lua
-│   │   │           ├── nvim-cmp.lua
-│   │   │           ├── nvim-jdtls.lua
-│   │   │           ├── nvim-lspconfig.lua
-│   │   │           ├── nvim-tree.lua
-│   │   │           └── nvim-treesitter.lua
 │   │   └── README.md
-│   └── vim
-│       └── vimrc
+│   ├── tmux
+│   │   ├── personal_tmux_session.txt
+│   │   ├── plugins
+│   │   ├── .tmux
+│   │   └── tmux.conf
+│   ├── vim
+│   │   ├── .netrwhist
+│   │   └── vimrc
+│   └── zsh
+│       ├── .aliases
+│       ├── antidote
+│       ├── .bob
+│       ├── .extending_git_fzf.sh
+│       ├── .git_prompt.zsh
+│       ├── tags
+│       ├── .vim_mode_config.zsh
+│       ├── .vi_mode_config.zsh
+│       ├── .zcompdump
+│       ├── .zcompdump-jppm-5.9
+│       ├── .zcompdump-jppm-5.9.zwc
+│       ├── .zhistory
+│       ├── .zsh_plugins.txt
+│       ├── .zsh_plugins.zsh
+│       ├── .zshrc
+│       └── .zshrc_helpers.sh
+├── dotfiles.mk
+├── .gitmodules
 ├── home
-│   ├── .gitconfig
-│   ├── .tmux.conf
-│   ├── .zshrc
-│   └── .zshrc_helpers.sh
+│   └── .zshenv
 ├── pictures
 │   ├── gruvbox_tux.png
 │   ├── samurai_gruvbox.jpg
 │   └── samurai.jpg
 ├── README.md
-└── tags
-
-15 directories, 27 files
+└── test.mk
+16 directories, 34 files
 ```
 
 ## How to use it
@@ -60,11 +67,10 @@ Mine Configuration files, and how the manage of it will work.
 
   - Clone the repository `git clone https://github.com/juanpabloinformatica/dotfiles.git `
 
-### First one
-
+### First one (favorite)
 ```
- #execute
- ./script_dotfiles.sh
+# Execute 
+make -f dotfiles.mk
 ```
 
 ### Second one
@@ -75,10 +81,4 @@ Mine Configuration files, and how the manage of it will work.
 stow --target=$HOME $HOME/Documents/home
 stow --target=$HOME/.config $HOME/Documents/config
 stow --target=$HOME/Pictures $HOME/Documents/Pictures
-```
-
-### Third one (favorite)
-```
-# Execute 
-make -f dotfiles.mk
 ```
