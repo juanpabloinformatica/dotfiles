@@ -8,6 +8,8 @@ alias la='ls -alh'
 
 alias grep='grep  --color=auto'
 # alias grep='grep -Pi --color=auto'
+#
+alias lg="lazygit"
 
 
 

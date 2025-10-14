@@ -1,28 +1,35 @@
 return {
 
     -- colorscheme
-    {
-        "Shatur/neovim-ayu",
-        config = function()
-            -- Add
-            -- commentMore
-            -- actions
-            require("ayu").setup({
-                mirage = false, -- Set to `true` to use `mirage` variant instead of `dark` for dark background.
-                overrides = {
-                    Normal = { bg = "#000000" },
-                },
-            })
-            vim.cmd([[colorscheme ayu]])
-            vim.cmd([[hi LineNr guifg=#b1b1b1]])
-        end,
-    },
+    -- {
+    --     "Shatur/neovim-ayu",
+    --     config = function()
+    --         -- Add
+    --         -- commentMore
+    --         -- actions
+    --         require("ayu").setup({
+    --             mirage = false, -- Set to `true` to use `mirage` variant instead of `dark` for dark background.
+    --             overrides = {
+    --                 Normal = { bg = "#000000" },
+    --             },
+    --         })
+    --         vim.cmd([[colorscheme ayu]])
+    --         vim.cmd([[hi LineNr guifg=#b1b1b1]])
+    --     end,
+    -- },
     -- {
     -- 	"bettervim/yugen.nvim",
     -- 	config = function()
     -- 		vim.cmd.colorscheme("yugen")
     -- 	end,
     -- },
+	{ "bluz71/vim-moonfly-colors", name = "moonfly", lazy = false, priority = 1000, config = function ()
+		vim.cmd([[colorscheme moonfly]])
+		vim.g.moonflyWinSeparator=2
+		-- Lua initialization file
+		vim.opt.fillchars = { horiz = '━', horizup = '┻', horizdown = '┳', vert = '┃', vertleft = '┫', vertright = '┣', verthoriz = '╋', }
+
+	end },
     { "nvim-lua/plenary.nvim" },
     -- ------lsp management -----
     {

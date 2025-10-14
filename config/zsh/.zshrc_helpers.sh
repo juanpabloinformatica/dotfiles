@@ -9,7 +9,28 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
 
+# Adding pyenv config -- need to be added
+
 export FZF_DEFAULT_OPTS="-m --color=dark --bind ctrl-y:preview-up,ctrl-e:preview-down,ctrl-u:preview-half-page-up,ctrl-d:preview-half-page-down"
+# moonfly theme for fzf
+#
+# Upstream: github.com/bluz71/vim-moonfly-colors
+export FZF_DEFAULT_OPTS="${FZF_DEFAULT_OPTS} \
+  --color bg:#080808 \
+  --color bg+:#262626 \
+  --color border:#2e2e2e \
+  --color fg:#b2b2b2 \
+  --color fg+:#e4e4e4 \
+  --color gutter:#262626 \
+  --color header:#80a0ff \
+  --color hl+:#f09479 \
+  --color hl:#f09479 \
+  --color info:#cfcfb0 \
+  --color marker:#f09479 \
+  --color pointer:#ff5189 \
+  --color prompt:#80a0ff \
+  --color spinner:#36c692
+"
 export FZF_CTRL_T_OPTS="--preview 'bat -n --color=always {}'
   --bind 'ctrl-/:change-preview-window(|hidden|)'"
 export FZF_ALT_C_OPTS="
@@ -24,27 +45,30 @@ setxkbmap -option "ctrl:nocaps"
 
 # useful_functions
 function init_server() {
-    PORT=7777
-    if [[ $1 == "" ]]; then
-        python3 -m http.server
-        python3 -m http.server --port $PORT
-    else
-        python3 -m http.server --directory "$1" $PORT
-    fi
+	PORT=7777
+	if [[ $1 == "" ]]; then
+		python3 -m http.server
+		python3 -m http.server --port $PORT
+	else
+		python3 -m http.server --directory "$1" $PORT
+	fi
 }
 function gck() {
-    git branch | sed -E 's/^.//g' | awk '{print $1}' | fzf --preview 'git show {}' --print0 | xargs -0 git checkout
+	git branch | sed -E 's/^.//g' |
+		awk '{print $1}' |
+		fzf --preview 'git show {}' --print0 |
+		xargs -0 git checkout
 }
 
 function gri() {
 
-    # test -d "$(find . -maxdepth 1 -type d -name "*.git*")" && echo "exist"
-    if [[ -d "$(find . -maxdepth 1 -type d -name "*.git*")" && -n $1 ]]; then
-        echo "Executing rebase"
-        git -c "rebase.instructionFormat=(%an <%ae>) %s" rebase -i "$1"
-    else
-        echo "This is not a git repository or not hash passed"
-    fi
+	# test -d "$(find . -maxdepth 1 -type d -name "*.git*")" && echo "exist"
+	if [[ -d "$(find . -maxdepth 1 -type d -name "*.git*")" && -n $1 ]]; then
+		echo "Executing rebase"
+		git -c "rebase.instructionFormat=(%an <%ae>) %s" rebase -i "$1"
+	else
+		echo "This is not a git repository or not hash passed"
+	fi
 
 }
 
@@ -62,14 +86,20 @@ function gri() {
 #
 # zle -N open_lazygit
 # bindkey '^g' open_lazygit
-function sshServer(){
-    local server=$*
-    local background_local='printf "\e]11;#000000\e\\"'
-    local background_server='printf "\e]11;#282828\e\\"'
-     eval ${background_server};ssh ${server};eval ${background_local}
+function sshServer() {
+	echo "entering here"
+	local server=$*
+	local background_local='printf "\e]11;#000000\e\\"'
+	local background_server='printf "\e]11;#282828\e\\"'
+	# local background_server='printf "\e]11;#fbf1c7\e\\"'
+	eval ${background_server}
+	ssh ${server}
+	eval ${background_local}
 }
 
 export PATH="$HOME/.local/share/nvim/mason/bin:${PATH}"
+# Setting default background terminal to black
+# printf "\e]11;#000000\e\\"
 
 #
 #useful commands

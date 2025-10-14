@@ -22,12 +22,14 @@ opt.number = true
 opt.numberwidth = 2
 opt.relativenumber = true
 opt.ruler = true -- Hide the ruler.
-opt.expandtab = true
-opt.shiftwidth = 4
+opt.expandtab = false
+opt.shiftwidth = 2
 opt.smartindent = true
-opt.tabstop = 4
-opt.softtabstop = 4
--- opt.fillchars = { eob = " " } -- Customize characters to be displayed at the end of the buffer.
+opt.tabstop = 2
+opt.softtabstop = 2
+opt.colorcolumn = "80"
+-- opt.fillchars = { eob = "",eol="↩ "} -- Customize characters to be displayed at the end of the buffer.
+
 opt.ignorecase = true
 opt.smartcase = true -- Use smart case for searches.
 opt.updatetime = 250
@@ -42,7 +44,6 @@ opt.undofile = true
 opt.undodir = os.getenv("HOME") .. "/.nvim/undo"
 opt.undolevels = 10000
 opt.wildmenu = true
--- vim.cmd([[colorscheme murphy]])
 vim.g.netrw_bufsettings = "noma nomod nu rnu nobl nowrap ro"
 -- vim.opt.completeopt={"menuone","noselect","popup"}
 -- fold
@@ -53,6 +54,13 @@ opt.foldexpr = "nvim_treesitter#foldexpr()"
 
 -- for macros
 opt.lazyredraw = true
--- vim.o.list = true
--- opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
+opt.list = true
+-- opt.listchars = { tab = '→ ', eol="↩ ",trail="-" }
+opt.listchars:append({eol ="↩"})
+opt.listchars:append({tab ="↣ "})
+opt.listchars:append({trail ="-"})
+
 vim.o.inccommand='split'
+-- set listchars+=tab:>-,lead:.
+
+-- vim.cmd([[colorscheme murphy]])

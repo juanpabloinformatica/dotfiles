@@ -56,9 +56,9 @@ end)
 
 -- lsp
 --
--- keymap.set("n", "<leader>fm", function()
---     return vim.lsp.buf.format()
--- end)
+keymap.set("n", "<leader>fm", function()
+    return vim.lsp.buf.format()
+end)
 --
 -- -- Rename the variable under your cursor.
 -- --  Most Language Servers support renaming across files, etc.
