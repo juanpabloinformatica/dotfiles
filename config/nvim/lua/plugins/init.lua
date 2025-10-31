@@ -74,6 +74,14 @@ return {
         -- dependencies = { "echasnovski/mini.icons" },
         opts = {},
     },
+	-- Code Formatting
+	{
+		-- I will improve this
+		'stevearc/conform.nvim',
+		opts = require("plugins.plugins_configs.conform").opts,
+		init = function()
+			vim.o.formatexpr = "v:lua.require'conform'.formatexpr()"
+		end
 
     -- Code Formatting
     -- { "jose-elias-alvarez/null-ls.nvim", config = require("plugins.plugins_configs.null-ls").config },
