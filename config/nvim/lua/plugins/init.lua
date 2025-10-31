@@ -28,6 +28,14 @@ return {
 		vim.g.moonflyWinSeparator=2
 		-- Lua initialization file
 		vim.opt.fillchars = { horiz = '━', horizup = '┻', horizdown = '┳', vert = '┃', vertleft = '┫', vertright = '┣', verthoriz = '╋', }
+	{ "neovim/nvim-lspconfig", 
+	init = function ()
+		-- Good languagues
+		vim.lsp.enable("clangd")
+		vim.lsp.enable("bashls")
+		-- nvim config mainly :)
+		vim.lsp.enable("lua_ls")
+	end},
 
 	end },
     { "nvim-lua/plenary.nvim" },
