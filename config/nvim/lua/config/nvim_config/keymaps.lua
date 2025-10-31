@@ -19,47 +19,57 @@ keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 keymap.set("n", "<leader>fz", ":FzfLua<CR>")
 keymap.set("n", "<leader>ff", function()
-    return require("fzf-lua").files()
+	return require("fzf-lua").files()
 end)
 keymap.set("n", "<leader>fg", function()
-    return require("fzf-lua").live_grep()
+	return require("fzf-lua").live_grep()
 end)
 keymap.set("n", "<leader>fal", function()
-    return require("fzf-lua").args()
+	return require("fzf-lua").args()
 end)
 -- move through arglist
 --
+
+-- Needed for version below NVIM v0.11.3 !
+
 --for quicklist
 -- keymap.set("n","<leader>co",":copen<CR>")
 --
-keymap.set("n", "<leader>co", function()
-    local qf_exists = false
-    for _, win in pairs(vim.fn.getwininfo()) do
-        if win["quickfix"] == 1 then
-            qf_exists = true
-        end
-    end
-    if qf_exists == true then
-        vim.cmd("cclose")
-        return
-    end
-    if not vim.tbl_isempty(vim.fn.getqflist()) then
-        vim.cmd("copen")
-    end
-end)
-keymap.set("n", "<leader>cn", ":cnext<CR>")
-keymap.set("n", "<leader>cp", ":cprevious<CR>")
+--
+-- keymap.set("n", "<leader>co", function()
+-- 	local qf_exists = false
+-- 	for _, win in pairs(vim.fn.getwininfo()) do
+-- 		if win["quickfix"] == 1 then
+-- 			qf_exists = true
+-- 		end
+-- 	end
+-- 	if qf_exists == true then
+-- 		vim.cmd("cclose")
+-- 		return
+-- 	end
+-- 	if not vim.tbl_isempty(vim.fn.getqflist()) then
+-- 		vim.cmd("copen")
+-- 	end
+-- end)
+-- keymap.set("n", "<leader>cn", ":cnext<CR>")
+-- keymap.set("n", "<leader>cp", ":cprevious<CR>")
 -- for toggling diagnostics
 keymap.set("n", "<leader>sd", function()
-    return vim.diagnostic.open_float()
+	return vim.diagnostic.open_float()
 end)
 
 -- lsp
 --
+
 keymap.set("n", "<leader>fm", function()
-    return vim.lsp.buf.format()
+	return require("conform").format({ async = true })
 end)
---
+-- keymap.set("n", "<leader>fm", function()
+-- 	return vim.lsp.buf.format()
+-- end)
+
+-- Needed for version below NVIM v0.11.3 !
+
 -- -- Rename the variable under your cursor.
 -- --  Most Language Servers support renaming across files, etc.
 -- keymap.set("n", "grn", function()
@@ -120,6 +130,8 @@ end)
 -- keymap.set("n", "<leader>q", function()
 --     return vim.diagnostic.setloclist()
 -- end)
+--
+--
 --
 -- for nvim-tree
 keymap.set("n", "<leader>e", ":NvimTreeFocus<CR>")
