@@ -1,0 +1,13 @@
+02:10:25.485767 Log continuation - Log started 2025-11-19T10:50:09.731605000Z
+02:10:25.496232 GUI: UIMediumEnumerator: Medium-enumeration finished!
+02:10:25.681663 GUI: UIMediumEnumerator: Medium-enumeration finished!
+02:10:26.590770 GUI: UIMediumEnumerator: Medium-enumeration finished!
+02:10:27.122706 GUI: UIMediumEnumerator: Medium-enumeration finished!
+02:10:27.194943 GUI: UIMediumEnumerator: Medium-enumeration finished!
+02:10:27.288409 GUI: UIMediumEnumerator: Medium-enumeration finished!
+02:10:27.356375 GUI: UIMediumEnumerator: Medium-enumeration finished!
+02:10:27.528514 GUI: UIMediumEnumerator: Medium-enumeration finished!
+02:10:27.603682 GUI: UIMediumEnumerator: Medium-enumeration finished!
+02:10:27.681735 GUI: UIMediumEnumerator: Medium-enumeration finished!
+02:27:17.917226 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+02:27:19.541363 GUI: UIMediumEnumerator: Medium-enumeration finished!

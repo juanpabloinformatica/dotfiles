@@ -1,0 +1,5 @@
+set  print pretty on
+set confirm off 
+set verbose off
+tui enable
+refresh

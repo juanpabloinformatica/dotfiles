@@ -65,9 +65,14 @@ source "${ZDOTDIR}/.bob"
 # own_config
 source "${ZDOTDIR}/.zshrc_helpers.sh"
 
+#spotify_player_completition
+source "${ZDOTDIR}/.zsh_spotify_player_completition"
+
 # adding binaries
 export PATH="/home/jppm/.local/share/bob/nvim-bin/:$PATH"
 export PATH="/home/jppm/Documents/scripts/:$PATH"
+
+
 
 # # Addin personal scripts
 # export PATH="/home/jppm/Documents/scripts/projects:$PATH"

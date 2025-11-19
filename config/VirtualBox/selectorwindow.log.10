@@ -1,0 +1,39 @@
+00:00:00.264378 VirtualBox GUI VM Selector Window 7.2.2 r170484 linux.amd64 (Sep 24 2025 20:15:03) release log
+00:00:00.264380 Log opened 2025-11-04T20:27:54.760150000Z
+00:00:00.264380 Build Type: release
+00:00:00.264382 OS Product: Linux
+00:00:00.264383 OS Release: 6.17.3-arch2-1
+00:00:00.264384 OS Version: #1 SMP PREEMPT_DYNAMIC Fri, 17 Oct 2025 13:29:06 +0000
+00:00:00.264401 DMI Product Name: Inspiron 7580
+00:00:00.264407 DMI Product Version: 
+00:00:00.264412 Firmware type: UEFI
+00:00:00.265069 Secure Boot: Disabled
+00:00:00.265099 Host RAM: 15701MB (15.3GB) total, 13409MB (13.0GB) available
+00:00:00.265101 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.265102 Process ID: 17984
+00:00:00.265102 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.265121 Qt version: 6.10.0
+00:00:00.266814 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.285105 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.911638 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 480x0 x 474x1053
+00:00:00.926353 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:12.964003 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:22.053635 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:32.848424 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:49.475004 GUI: UIMediumEnumerator: Medium with key={{b1319b0e-0810-4da8-980e-c41681284a5f}} created
+00:06:49.589134 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:07:05.940535 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:07:13.486672 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:07:26.675535 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:07:26.700337 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:13:24.798100 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:13:59.676594 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:14:03.156144 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:23:41.081525 GUI: UIMediumEnumerator: Medium with key={{a53a5d9c-e1ab-4bd6-8b25-886daa296b95}} created
+00:23:41.177192 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:23:46.081982 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:24:03.735696 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:25:18.434508 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:31:29.945083 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:32:50.355101 GUI: UICommon: Handling aboutToQuit request..
+00:32:50.900989 GUI: UICommon: aboutToQuit request handled!

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Leases version="1.0">
+  <Lease mac="08:00:27:73:f9:66" id="ffed4ef8d700020000ab110ac3cbfab5f7c4de" network="0.0.0.0" state="expired">
+    <Address value="192.168.56.106"/>
+    <Time issued="1747053980" expiration="600"/>
+  </Lease>
+  <Lease mac="08:00:27:3a:81:47" id="ffed4ef8d700020000ab11b0ccb29dead099e3" network="0.0.0.0" state="expired">
+    <Address value="192.168.56.105"/>
+    <Time issued="1734511295" expiration="600"/>
+  </Lease>
+  <Lease mac="08:00:27:6b:45:ce" id="ffed4ef8d700020000ab11216fad350e01dfed" network="0.0.0.0" state="expired">
+    <Address value="192.168.56.104"/>
+    <Time issued="1734511195" expiration="600"/>
+  </Lease>
+  <Lease mac="08:00:27:46:80:a3" id="ffed4ef8d700020000ab11df114a910e4f6eb0" network="0.0.0.0" state="expired">
+    <Address value="192.168.56.103"/>
+    <Time issued="1734510564" expiration="600"/>
+  </Lease>
+  <Lease mac="08:00:27:c5:1b:c9" id="ffed4ef8d700020000ab1117b73549b0b16505" network="0.0.0.0" state="expired">
+    <Address value="192.168.56.102"/>
+    <Time issued="1734509954" expiration="600"/>
+  </Lease>
+  <Lease mac="0a:00:27:00:00:00" id="ffb5ba44ba00020000ab11ceb91e455b786b3d" network="0.0.0.0" state="acked">
+    <Address value="192.168.56.101"/>
+    <Time issued="1747120244" expiration="600"/>
+  </Lease>
+</Leases>

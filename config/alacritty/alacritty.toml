@@ -1,4 +1,4 @@
-[shell]
+[terminal.shell]
 program               = "/usr/bin/zsh"
 args                  = [ "--login", ]
 
@@ -11,8 +11,8 @@ position              = { x = 0, y = 0 }
 padding               = { x = 0, y = 0 }
 dynamic_padding       = true
 decorations           = "None"
-opacity               = 1.0
-blur                  = true
+opacity               = 0.7
+# blur                  = true
 
 [scrolling]
 history               = 65535
@@ -129,5 +129,5 @@ foreground = "#bdbdbd"
 [colors.selection]
 background = "#b2ceee"
 text = "#080808"
-
-
+#
+#

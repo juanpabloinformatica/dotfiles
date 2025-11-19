@@ -1,0 +1,53 @@
+00:00:00.000637 main     VirtualBox XPCOM Server 7.2.4 r170995 linux.amd64 (Oct 22 2025 16:59:14) release log
+00:00:00.000639 main     Log opened 2025-11-15T21:11:39.543961000Z
+00:00:00.000639 main     Build Type: release
+00:00:00.000641 main     OS Product: Linux
+00:00:00.000641 main     OS Release: 6.17.7-arch1-1
+00:00:00.000642 main     OS Version: #1 SMP PREEMPT_DYNAMIC Sun, 02 Nov 2025 17:27:22 +0000
+00:00:00.000658 main     DMI Product Name: Inspiron 7580
+00:00:00.000664 main     DMI Product Version: 
+00:00:00.000668 main     Firmware type: UEFI
+00:00:00.001416 main     Secure Boot: Disabled
+00:00:00.001468 main     Host RAM: 15702MB (15.3GB) total, 12943MB (12.6GB) available
+00:00:00.001470 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.001470 main     Process ID: 79513
+00:00:00.001471 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.006755 main     IPC socket path: /tmp/.vbox-jppm-ipc/ipcd
+00:00:00.017805 DCon01   VirtualBox: object creation starts
+00:00:00.019342 DCon01   Home directory: '/home/jppm/.config/VirtualBox'
+00:00:00.020208 DCon01   Loading settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.026664 DCon01   USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0025)
+00:00:00.026816 DCon01   Successfully initialised host USB using sysfs
+00:00:00.035640 DCon01   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.037146 DCon01   HostDnsMonitor: initializing
+00:00:00.037290 DCon01   NAT: resolv.conf: nameserver 8.8.8.8
+00:00:00.037305 DCon01   HostDnsMonitor: updating information
+00:00:00.037316 DCon01   HostDnsMonitor: old information
+00:00:00.037317 DCon01     no server entries
+00:00:00.037319 DCon01     no domain set
+00:00:00.037320 DCon01     no search string entries
+00:00:00.037322 DCon01   HostDnsMonitor: new information
+00:00:00.037324 DCon01     server 1: 8.8.8.8
+00:00:00.037326 DCon01     no domain set
+00:00:00.037327 DCon01     no search string entries
+00:00:00.058741 DCon01   VD: VDInit finished with VINF_SUCCESS
+00:00:00.064036 DCon01   Platform architecture set to 'x86'
+00:00:00.069182 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Runtime error opening '/home/jppm/VirtualBox VMs/arch/arch.vbox' for reading VERR_ACCESS_DENIED (Access denied.).
+00:00:00.069187 DCon01   /build/virtualbox/src/VirtualBox-7.2.4/src/VBox/Main/src-server/MachineImpl.cpp[1000] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.070298 DCon01   VirtualBox: object created
+00:00:00.809678 DCon03   Platform architecture set to 'x86'
+00:00:00.809849 DCon03   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Runtime error opening '/home/jppm/VirtualBox VMs/arch/arch.vbox' for reading VERR_ACCESS_DENIED (Access denied.).
+00:00:00.809854 DCon03   /build/virtualbox/src/VirtualBox-7.2.4/src/VBox/Main/src-server/MachineImpl.cpp[1000] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.810101 DCon03   Platform architecture set to 'x86'
+00:00:00.810215 DCon03   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Runtime error opening '/home/jppm/VirtualBox VMs/arch/arch.vbox' for reading VERR_ACCESS_DENIED (Access denied.).
+00:00:00.810218 DCon03   /build/virtualbox/src/VirtualBox-7.2.4/src/VBox/Main/src-server/MachineImpl.cpp[1000] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.811071 DCon03   Platform architecture set to 'x86'
+00:00:00.811205 DCon03   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Runtime error opening '/home/jppm/VirtualBox VMs/arch/arch.vbox' for reading VERR_ACCESS_DENIED (Access denied.).
+00:00:00.811208 DCon03   /build/virtualbox/src/VirtualBox-7.2.4/src/VBox/Main/src-server/MachineImpl.cpp[1000] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:01.198940 DCon03   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:01.201478 DCon03   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:00:09.722262 main     VirtualBox: object deletion starts
+00:00:09.731060 main     HostDnsMonitor: shutting down ...
+00:00:09.731367 main     HostDnsMonitor: shut down
+00:00:09.747213 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:09.747323 main     VirtualBox: object deleted

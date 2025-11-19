@@ -1,0 +1,303 @@
+2025-07-03 15:36:14 WARNING config.py:250 No configuration file could be found or read
+2025-07-03 15:36:14 INFO server.py:234 GNS3 server version 3.0.5
+2025-07-03 15:36:14 INFO server.py:236 Copyright (c) 2007-2025 GNS3 Technologies Inc.
+2025-07-03 15:36:14 WARNING server.py:247 Compute authentication is enabled with username 'gns3' and a randomly generated password. Please set a password in the config file if this compute is to be used by an external controller
+2025-07-03 15:36:14 INFO server.py:257 Running with Python 3.13.3 and has PID 84608
+2025-07-03 15:36:14 INFO server.py:87 Current locale is en_US.UTF-8
+2025-07-03 15:36:14 INFO server.py:275 Using system certificate store for SSL connections
+2025-07-03 15:36:16 INFO server.py:288 Starting server on 0.0.0.0:3080
+2025-07-03 15:36:17 INFO server.py:83 Started server process [84608]
+2025-07-03 15:36:17 INFO on.py:48 Waiting for application startup.
+2025-07-03 15:36:17 INFO migration.py:207 Context impl SQLiteImpl.
+2025-07-03 15:36:17 INFO migration.py:210 Will assume non-transactional DDL.
+2025-07-03 15:36:17 INFO tasks.py:88 Current database revision is None
+2025-07-03 15:36:17 INFO migration.py:207 Context impl SQLiteImpl.
+2025-07-03 15:36:17 INFO migration.py:210 Will assume non-transactional DDL.
+2025-07-03 15:36:17 INFO migration.py:618 Running stamp_revision  -> 9a5292aa4389
+2025-07-03 15:36:18 INFO __init__.py:71 Loading controller vars file "/home/jppm/.config/GNS3/3.0/gns3_controller.vars"
+2025-07-03 15:36:18 INFO __init__.py:75 Controller is starting
+2025-07-03 15:36:18 INFO __init__.py:355 Installing base configs in '/home/jppm/GNS3/configs'
+2025-07-03 15:36:18 INFO __init__.py:382 Installing custom symbols in '/home/jppm/GNS3/symbols'
+2025-07-03 15:36:18 INFO __init__.py:369 Installing built-in disks in '/home/jppm/GNS3/images/QEMU'
+2025-07-03 15:36:18 INFO __init__.py:273 IOU license check is disabled on the controller
+2025-07-03 15:36:18 INFO __init__.py:278 Comparing controller version 3.0.5 with config version 3.0.5
+2025-07-03 15:36:18 INFO __init__.py:286 Built-in appliances are installed in '/home/jppm/.local/share/GNS3/appliances'
+2025-07-03 15:36:18 INFO compute.py:74 Create compute local
+2025-07-03 15:36:18 INFO compute.py:74 Create compute c2a707c3-1089-4d2b-83b1-38295923f607
+2025-07-03 15:36:18 INFO on.py:62 Application startup complete.
+2025-07-03 15:36:18 INFO server.py:215 Uvicorn running on http://0.0.0.0:3080 (Press CTRL+C to quit)
+2025-07-03 15:36:18 ERROR authentication.py:58 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 15:36:18 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 15:36:18 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 15:36:18 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 15:36:18 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 15:36:19 INFO compute.py:375 Connecting to compute 'local'
+2025-07-03 15:36:19 INFO websockets_impl.py:273 127.0.0.1:58720 - "WebSocket /v3/compute/notifications/ws" [accepted]
+2025-07-03 15:36:19 INFO notifications.py:43 New client 127.0.0.1:58720 has connected to compute WebSocket
+2025-07-03 15:36:19 INFO server.py:643 connection open
+2025-07-03 15:36:19 INFO compute.py:447 Connected to compute 'local' WebSocket 'http://127.0.0.1:3080/v3/compute/notifications/ws'
+2025-07-03 15:36:23 INFO images.py:163 Discovering images in '/home/jppm/GNS3/images/QEMU'
+2025-07-03 15:36:23 INFO images.py:163 Discovering images in '/home/jppm/GNS3/images/IOS'
+2025-07-03 15:36:23 INFO images.py:163 Discovering images in '/home/jppm/GNS3/images/IOU'
+2025-07-03 15:36:23 INFO tasks.py:231 Monitoring for new images in '/home/jppm/GNS3/images'
+2025-07-03 15:36:27 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 15:36:27 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 15:36:27 INFO websockets_impl.py:273 127.0.0.1:52420 - "WebSocket /v3/notifications/ws?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTc1MTYzNjE3OH0.ir0PiFh57VvU51XUGEhIZayNftUwrGS4q1RR512-PFI" [accepted]
+2025-07-03 15:36:27 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 15:36:27 INFO server.py:643 connection open
+2025-07-03 15:36:27 INFO project.py:78 Project 6a375c41-153b-4f18-a384-e54e9943abc6 with path '/home/jppm/GNS3/projects/6a375c41-153b-4f18-a384-e54e9943abc6' created
+2025-07-03 15:36:27 INFO controller.py:214 New client 127.0.0.1:52420 has connected to controller WebSocket
+2025-07-03 15:36:27 INFO base_node.py:323 VPCS: PC1 [bd63da79-3b94-45cd-bc2e-50639d86bb10] created
+2025-07-03 15:36:27 INFO qemu_vm.py:272 QEMU VM "SONiC-1" [SONiC-1] has set the QEMU path to /usr/bin/qemu-system-x86_64
+2025-07-03 15:36:27 INFO qemu_vm.py:693 QEMU VM "SONiC-1" [6c44ced1-3060-4d7c-bb34-c0cac5a671cd]: MAC address changed to 0c:44:ce:d1:00:00
+2025-07-03 15:36:27 INFO qemu_vm.py:637 QEMU VM "SONiC-1" [6c44ced1-3060-4d7c-bb34-c0cac5a671cd]: number of Ethernet adapters changed to 1
+2025-07-03 15:36:27 INFO qemu_vm.py:189 QEMU VM "SONiC-1" [6c44ced1-3060-4d7c-bb34-c0cac5a671cd] has been created
+2025-07-03 15:36:27 INFO base_node.py:323 Qemu: SONiC-1 [6c44ced1-3060-4d7c-bb34-c0cac5a671cd] created
+2025-07-03 15:36:27 INFO qemu_vm.py:313 QEMU VM "SONiC-1" [6c44ced1-3060-4d7c-bb34-c0cac5a671cd] has set the QEMU hda_disk_image path to /home/jppm/GNS3/images/QEMU/sonic-vs.img
+2025-07-03 15:36:27 INFO qemu_vm.py:418 QEMU VM "SONiC-1" [6c44ced1-3060-4d7c-bb34-c0cac5a671cd] has set the QEMU hda disk interface to virtio
+2025-07-03 15:36:27 INFO qemu_vm.py:602 QEMU VM "SONiC-1" [6c44ced1-3060-4d7c-bb34-c0cac5a671cd] has set the boot priority to d
+2025-07-03 15:36:27 INFO qemu_vm.py:839 QEMU VM "SONiC-1" [6c44ced1-3060-4d7c-bb34-c0cac5a671cd] has set the RAM to 4096
+2025-07-03 15:36:27 INFO qemu_vm.py:637 QEMU VM "SONiC-1" [6c44ced1-3060-4d7c-bb34-c0cac5a671cd]: number of Ethernet adapters changed to 10
+2025-07-03 15:36:27 INFO qemu_vm.py:814 QEMU VM "SONiC-1" [6c44ced1-3060-4d7c-bb34-c0cac5a671cd] has set the process priority to normal
+2025-07-03 15:36:27 INFO base_node.py:323 VPCS: PC2 [c5f23f14-4036-43cd-a375-61eea45501d5] created
+2025-07-03 15:36:27 INFO qemu_vm.py:272 QEMU VM "SONiC-2" [SONiC-2] has set the QEMU path to /usr/bin/qemu-system-x86_64
+2025-07-03 15:36:27 INFO qemu_vm.py:693 QEMU VM "SONiC-2" [a4b3eff7-fd99-4362-a112-edbdf6b26fed]: MAC address changed to 0c:b3:ef:f7:00:00
+2025-07-03 15:36:27 INFO qemu_vm.py:637 QEMU VM "SONiC-2" [a4b3eff7-fd99-4362-a112-edbdf6b26fed]: number of Ethernet adapters changed to 1
+2025-07-03 15:36:27 INFO qemu_vm.py:189 QEMU VM "SONiC-2" [a4b3eff7-fd99-4362-a112-edbdf6b26fed] has been created
+2025-07-03 15:36:27 INFO base_node.py:323 Qemu: SONiC-2 [a4b3eff7-fd99-4362-a112-edbdf6b26fed] created
+2025-07-03 15:36:27 INFO qemu_vm.py:313 QEMU VM "SONiC-2" [a4b3eff7-fd99-4362-a112-edbdf6b26fed] has set the QEMU hda_disk_image path to /home/jppm/GNS3/images/QEMU/sonic-vs.img
+2025-07-03 15:36:27 INFO qemu_vm.py:418 QEMU VM "SONiC-2" [a4b3eff7-fd99-4362-a112-edbdf6b26fed] has set the QEMU hda disk interface to virtio
+2025-07-03 15:36:27 INFO qemu_vm.py:602 QEMU VM "SONiC-2" [a4b3eff7-fd99-4362-a112-edbdf6b26fed] has set the boot priority to d
+2025-07-03 15:36:27 INFO qemu_vm.py:839 QEMU VM "SONiC-2" [a4b3eff7-fd99-4362-a112-edbdf6b26fed] has set the RAM to 4096
+2025-07-03 15:36:27 INFO qemu_vm.py:637 QEMU VM "SONiC-2" [a4b3eff7-fd99-4362-a112-edbdf6b26fed]: number of Ethernet adapters changed to 10
+2025-07-03 15:36:27 INFO qemu_vm.py:814 QEMU VM "SONiC-2" [a4b3eff7-fd99-4362-a112-edbdf6b26fed] has set the process priority to normal
+2025-07-03 15:36:27 INFO vpcs_vm.py:393 VPCS "PC1" [bd63da79-3b94-45cd-bc2e-50639d86bb10]: NIO UDP added to port 0
+2025-07-03 15:36:27 INFO qemu_vm.py:1562 QEMU VM "SONiC-1" [6c44ced1-3060-4d7c-bb34-c0cac5a671cd]: NIO UDP added to adapter 1
+2025-07-03 15:36:27 INFO qemu_vm.py:1562 QEMU VM "SONiC-1" [6c44ced1-3060-4d7c-bb34-c0cac5a671cd]: NIO UDP added to adapter 2
+2025-07-03 15:36:27 INFO qemu_vm.py:1562 QEMU VM "SONiC-2" [a4b3eff7-fd99-4362-a112-edbdf6b26fed]: NIO UDP added to adapter 1
+2025-07-03 15:36:27 INFO qemu_vm.py:1562 QEMU VM "SONiC-2" [a4b3eff7-fd99-4362-a112-edbdf6b26fed]: NIO UDP added to adapter 2
+2025-07-03 15:36:27 INFO vpcs_vm.py:393 VPCS "PC2" [c5f23f14-4036-43cd-a375-61eea45501d5]: NIO UDP added to port 0
+2025-07-03 15:36:27 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 15:36:27 INFO websockets_impl.py:273 127.0.0.1:52584 - "WebSocket /v3/projects/6a375c41-153b-4f18-a384-e54e9943abc6/notifications/ws?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTc1MTYzNjE3OH0.ir0PiFh57VvU51XUGEhIZayNftUwrGS4q1RR512-PFI" [accepted]
+2025-07-03 15:36:27 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 15:36:27 INFO server.py:643 connection open
+2025-07-03 15:36:27 INFO projects.py:297 New client has connected to the notification stream for project ID '6a375c41-153b-4f18-a384-e54e9943abc6' (WebSocket method)
+2025-07-03 15:36:27 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 15:36:27 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 15:36:27 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 15:36:31 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 15:36:33 INFO server.py:264 connection closed
+2025-07-03 15:36:33 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 15:36:33 INFO project.py:78 Project 643fb5d1-43b1-486f-baa5-a78d0bcb0bee with path '/home/jppm/GNS3/projects/157a827c-ae96-4567-aae3-4caf60fcd07b' created
+2025-07-03 15:36:33 INFO qemu_vm.py:272 QEMU VM "SONiC-1" [SONiC-1] has set the QEMU path to /usr/bin/qemu-system-x86_64
+2025-07-03 15:36:33 INFO qemu_vm.py:693 QEMU VM "SONiC-1" [f7f53b20-9627-4754-9491-d3801f307528]: MAC address changed to 0c:f5:3b:20:00:00
+2025-07-03 15:36:33 INFO qemu_vm.py:637 QEMU VM "SONiC-1" [f7f53b20-9627-4754-9491-d3801f307528]: number of Ethernet adapters changed to 1
+2025-07-03 15:36:33 INFO qemu_vm.py:189 QEMU VM "SONiC-1" [f7f53b20-9627-4754-9491-d3801f307528] has been created
+2025-07-03 15:36:33 INFO base_node.py:323 Qemu: SONiC-1 [f7f53b20-9627-4754-9491-d3801f307528] created
+2025-07-03 15:36:33 INFO qemu_vm.py:313 QEMU VM "SONiC-1" [f7f53b20-9627-4754-9491-d3801f307528] has set the QEMU hda_disk_image path to /home/jppm/GNS3/images/QEMU/sonic-vs.img
+2025-07-03 15:36:33 INFO qemu_vm.py:418 QEMU VM "SONiC-1" [f7f53b20-9627-4754-9491-d3801f307528] has set the QEMU hda disk interface to virtio
+2025-07-03 15:36:33 INFO qemu_vm.py:602 QEMU VM "SONiC-1" [f7f53b20-9627-4754-9491-d3801f307528] has set the boot priority to d
+2025-07-03 15:36:33 INFO qemu_vm.py:839 QEMU VM "SONiC-1" [f7f53b20-9627-4754-9491-d3801f307528] has set the RAM to 4096
+2025-07-03 15:36:33 INFO qemu_vm.py:637 QEMU VM "SONiC-1" [f7f53b20-9627-4754-9491-d3801f307528]: number of Ethernet adapters changed to 10
+2025-07-03 15:36:33 INFO qemu_vm.py:814 QEMU VM "SONiC-1" [f7f53b20-9627-4754-9491-d3801f307528] has set the process priority to normal
+2025-07-03 15:36:33 INFO base_node.py:323 VPCS: PC1 [6debc873-db30-4159-899c-e9d7ccedc816] created
+2025-07-03 15:36:33 INFO base_node.py:323 VPCS: PC2 [ffe63de5-6b80-47a9-ad86-ff44f61925de] created
+2025-07-03 15:36:33 ERROR __init__.py:133 Compute node error: NAT interface virbr0 is missing, please install libvirt
+2025-07-03 15:36:33 INFO base_node.py:370 VPCS: 'PC1' [6debc873-db30-4159-899c-e9d7ccedc816]: is closing
+2025-07-03 15:36:33 INFO base_node.py:370 Qemu: 'SONiC-1' [f7f53b20-9627-4754-9491-d3801f307528]: is closing
+2025-07-03 15:36:33 INFO base_node.py:370 VPCS: 'PC2' [ffe63de5-6b80-47a9-ad86-ff44f61925de]: is closing
+2025-07-03 15:36:33 INFO project.py:352 Project 643fb5d1-43b1-486f-baa5-a78d0bcb0bee with path '/home/jppm/GNS3/projects/157a827c-ae96-4567-aae3-4caf60fcd07b' closed
+2025-07-03 15:36:33 ERROR server.py:126 Controller error in /v3/projects/643fb5d1-43b1-486f-baa5-a78d0bcb0bee/open (POST): NAT interface virbr0 is missing, please install libvirt
+2025-07-03 15:36:37 INFO projects.py:304 Client has disconnected from notification stream for project ID '6a375c41-153b-4f18-a384-e54e9943abc6' (WebSocket method)
+2025-07-03 15:36:42 INFO projects.py:313 Project '6a375c41-153b-4f18-a384-e54e9943abc6' is automatically closing due to no client listening
+2025-07-03 15:36:42 INFO base_node.py:370 VPCS: 'PC2' [c5f23f14-4036-43cd-a375-61eea45501d5]: is closing
+2025-07-03 15:36:42 INFO base_node.py:370 Qemu: 'SONiC-1' [6c44ced1-3060-4d7c-bb34-c0cac5a671cd]: is closing
+2025-07-03 15:36:42 INFO base_node.py:370 Qemu: 'SONiC-2' [a4b3eff7-fd99-4362-a112-edbdf6b26fed]: is closing
+2025-07-03 15:36:42 INFO base_node.py:370 VPCS: 'PC1' [bd63da79-3b94-45cd-bc2e-50639d86bb10]: is closing
+2025-07-03 15:36:42 INFO project.py:352 Project 6a375c41-153b-4f18-a384-e54e9943abc6 with path '/home/jppm/GNS3/projects/6a375c41-153b-4f18-a384-e54e9943abc6' closed
+2025-07-03 15:36:49 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 15:36:51 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 15:36:51 INFO project.py:78 Project 643fb5d1-43b1-486f-baa5-a78d0bcb0bee with path '/home/jppm/GNS3/projects/157a827c-ae96-4567-aae3-4caf60fcd07b' created
+2025-07-03 15:36:51 INFO qemu_vm.py:272 QEMU VM "SONiC-1" [SONiC-1] has set the QEMU path to /usr/bin/qemu-system-x86_64
+2025-07-03 15:36:51 INFO qemu_vm.py:693 QEMU VM "SONiC-1" [f7f53b20-9627-4754-9491-d3801f307528]: MAC address changed to 0c:f5:3b:20:00:00
+2025-07-03 15:36:51 INFO qemu_vm.py:637 QEMU VM "SONiC-1" [f7f53b20-9627-4754-9491-d3801f307528]: number of Ethernet adapters changed to 1
+2025-07-03 15:36:51 INFO qemu_vm.py:189 QEMU VM "SONiC-1" [f7f53b20-9627-4754-9491-d3801f307528] has been created
+2025-07-03 15:36:51 INFO base_node.py:323 Qemu: SONiC-1 [f7f53b20-9627-4754-9491-d3801f307528] created
+2025-07-03 15:36:51 INFO qemu_vm.py:313 QEMU VM "SONiC-1" [f7f53b20-9627-4754-9491-d3801f307528] has set the QEMU hda_disk_image path to /home/jppm/GNS3/images/QEMU/sonic-vs.img
+2025-07-03 15:36:51 INFO qemu_vm.py:418 QEMU VM "SONiC-1" [f7f53b20-9627-4754-9491-d3801f307528] has set the QEMU hda disk interface to virtio
+2025-07-03 15:36:51 INFO qemu_vm.py:602 QEMU VM "SONiC-1" [f7f53b20-9627-4754-9491-d3801f307528] has set the boot priority to d
+2025-07-03 15:36:51 INFO qemu_vm.py:839 QEMU VM "SONiC-1" [f7f53b20-9627-4754-9491-d3801f307528] has set the RAM to 4096
+2025-07-03 15:36:51 INFO qemu_vm.py:637 QEMU VM "SONiC-1" [f7f53b20-9627-4754-9491-d3801f307528]: number of Ethernet adapters changed to 10
+2025-07-03 15:36:51 INFO qemu_vm.py:814 QEMU VM "SONiC-1" [f7f53b20-9627-4754-9491-d3801f307528] has set the process priority to normal
+2025-07-03 15:36:51 INFO base_node.py:323 VPCS: PC1 [6debc873-db30-4159-899c-e9d7ccedc816] created
+2025-07-03 15:36:51 INFO base_node.py:323 VPCS: PC2 [ffe63de5-6b80-47a9-ad86-ff44f61925de] created
+2025-07-03 15:36:51 INFO nat.py:72 NAT node 'NAT1' configured to use NAT interface 'virbr0'
+2025-07-03 15:36:51 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:43829
+2025-07-03 15:36:51 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:43829']
+2025-07-03 15:36:51 INFO hypervisor.py:165 logging to /home/jppm/GNS3/projects/157a827c-ae96-4567-aae3-4caf60fcd07b/project-files/builtin/8a0400d5-47da-40d7-9579-7ce809a42063/ubridge.log
+2025-07-03 15:36:51 INFO hypervisor.py:171 ubridge started PID=84772
+2025-07-03 15:36:51 INFO base_node.py:788 Hypervisor 0.0.0.0:43829 has successfully started
+2025-07-03 15:36:52 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:43829 after 0.1016 seconds
+2025-07-03 15:36:52 INFO cloud.py:219 Cloud "NAT1" [8a0400d5-47da-40d7-9579-7ce809a42063] has been created
+2025-07-03 15:36:52 INFO qemu_vm.py:1562 QEMU VM "SONiC-1" [f7f53b20-9627-4754-9491-d3801f307528]: NIO UDP added to adapter 0
+2025-07-03 15:36:52 INFO cloud.py:419 Cloud "NAT1" [8a0400d5-47da-40d7-9579-7ce809a42063]: NIO NIO UDP bound to port 0
+2025-07-03 15:36:52 INFO vpcs_vm.py:393 VPCS "PC1" [6debc873-db30-4159-899c-e9d7ccedc816]: NIO UDP added to port 0
+2025-07-03 15:36:52 INFO qemu_vm.py:1562 QEMU VM "SONiC-1" [f7f53b20-9627-4754-9491-d3801f307528]: NIO UDP added to adapter 2
+2025-07-03 15:36:52 INFO vpcs_vm.py:393 VPCS "PC2" [ffe63de5-6b80-47a9-ad86-ff44f61925de]: NIO UDP added to port 0
+2025-07-03 15:36:52 INFO qemu_vm.py:1562 QEMU VM "SONiC-1" [f7f53b20-9627-4754-9491-d3801f307528]: NIO UDP added to adapter 3
+2025-07-03 15:36:52 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 15:36:52 INFO websockets_impl.py:273 127.0.0.1:48386 - "WebSocket /v3/projects/643fb5d1-43b1-486f-baa5-a78d0bcb0bee/notifications/ws?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTc1MTYzNjE3OH0.ir0PiFh57VvU51XUGEhIZayNftUwrGS4q1RR512-PFI" [accepted]
+2025-07-03 15:36:52 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 15:36:52 INFO server.py:643 connection open
+2025-07-03 15:36:52 INFO projects.py:297 New client has connected to the notification stream for project ID '643fb5d1-43b1-486f-baa5-a78d0bcb0bee' (WebSocket method)
+2025-07-03 15:36:52 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 15:36:52 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 15:36:52 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 15:37:51 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 15:37:52 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 15:37:53 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 15:37:53 INFO qemu_vm.py:313 QEMU VM "SONiC-1" [f7f53b20-9627-4754-9491-d3801f307528] has set the QEMU hda_disk_image path to /home/jppm/GNS3/images/QEMU/sonic-vs.img
+2025-07-03 15:37:55 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 16:24:27 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 16:24:27 INFO base_node.py:942 VPCS: 'PC1' [6debc873-db30-4159-899c-e9d7ccedc816]:local UDP tunnel created between port 10006 and 10007
+2025-07-03 16:24:27 INFO vpcs_vm.py:230 Starting VPCS: ['/usr/bin/vpcs', '-p', '5002', '-m', '1', '-i', '1', '-F', '-R', '-s', '10006', '-c', '10007', '-t', '127.0.0.1']
+2025-07-03 16:24:27 INFO vpcs_vm.py:232 Logging to /home/jppm/GNS3/projects/157a827c-ae96-4567-aae3-4caf60fcd07b/project-files/vpcs/6debc873-db30-4159-899c-e9d7ccedc816/vpcs.log
+2025-07-03 16:24:27 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:43965
+2025-07-03 16:24:27 INFO base_node.py:942 VPCS: 'PC2' [ffe63de5-6b80-47a9-ad86-ff44f61925de]:local UDP tunnel created between port 10008 and 10009
+2025-07-03 16:24:27 INFO vpcs_vm.py:230 Starting VPCS: ['/usr/bin/vpcs', '-p', '5004', '-m', '0', '-i', '1', '-F', '-R', '-s', '10008', '-c', '10009', '-t', '127.0.0.1']
+2025-07-03 16:24:27 INFO vpcs_vm.py:232 Logging to /home/jppm/GNS3/projects/157a827c-ae96-4567-aae3-4caf60fcd07b/project-files/vpcs/ffe63de5-6b80-47a9-ad86-ff44f61925de/vpcs.log
+2025-07-03 16:24:27 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:36031
+2025-07-03 16:24:27 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:43965']
+2025-07-03 16:24:27 INFO hypervisor.py:165 logging to /home/jppm/GNS3/projects/157a827c-ae96-4567-aae3-4caf60fcd07b/project-files/vpcs/6debc873-db30-4159-899c-e9d7ccedc816/ubridge.log
+2025-07-03 16:24:27 INFO hypervisor.py:171 ubridge started PID=92582
+2025-07-03 16:24:27 INFO base_node.py:788 Hypervisor 0.0.0.0:43965 has successfully started
+2025-07-03 16:24:27 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:36031']
+2025-07-03 16:24:27 INFO hypervisor.py:165 logging to /home/jppm/GNS3/projects/157a827c-ae96-4567-aae3-4caf60fcd07b/project-files/vpcs/ffe63de5-6b80-47a9-ad86-ff44f61925de/ubridge.log
+2025-07-03 16:24:27 INFO hypervisor.py:171 ubridge started PID=92586
+2025-07-03 16:24:27 INFO base_node.py:788 Hypervisor 0.0.0.0:36031 has successfully started
+2025-07-03 16:24:27 INFO qemu_vm.py:1975 logging to /home/jppm/GNS3/projects/157a827c-ae96-4567-aae3-4caf60fcd07b/project-files/qemu/f7f53b20-9627-4754-9491-d3801f307528/qemu-img.log
+2025-07-03 16:24:27 INFO qemu_vm.py:1977 Executing qemu-img with: /usr/bin/qemu-img check /home/jppm/GNS3/images/QEMU/sonic-vs.img
+2025-07-03 16:24:27 INFO base_node.py:942 Qemu: 'SONiC-1' [f7f53b20-9627-4754-9491-d3801f307528]:local UDP tunnel created between port 10010 and 10011
+2025-07-03 16:24:27 INFO base_node.py:942 Qemu: 'SONiC-1' [f7f53b20-9627-4754-9491-d3801f307528]:local UDP tunnel created between port 10012 and 10013
+2025-07-03 16:24:27 INFO base_node.py:942 Qemu: 'SONiC-1' [f7f53b20-9627-4754-9491-d3801f307528]:local UDP tunnel created between port 10014 and 10015
+2025-07-03 16:24:27 INFO base_node.py:942 Qemu: 'SONiC-1' [f7f53b20-9627-4754-9491-d3801f307528]:local UDP tunnel created between port 10016 and 10017
+2025-07-03 16:24:27 INFO base_node.py:942 Qemu: 'SONiC-1' [f7f53b20-9627-4754-9491-d3801f307528]:local UDP tunnel created between port 10018 and 10019
+2025-07-03 16:24:27 INFO base_node.py:942 Qemu: 'SONiC-1' [f7f53b20-9627-4754-9491-d3801f307528]:local UDP tunnel created between port 10020 and 10021
+2025-07-03 16:24:27 INFO base_node.py:942 Qemu: 'SONiC-1' [f7f53b20-9627-4754-9491-d3801f307528]:local UDP tunnel created between port 10022 and 10023
+2025-07-03 16:24:27 INFO base_node.py:942 Qemu: 'SONiC-1' [f7f53b20-9627-4754-9491-d3801f307528]:local UDP tunnel created between port 10024 and 10025
+2025-07-03 16:24:27 INFO base_node.py:942 Qemu: 'SONiC-1' [f7f53b20-9627-4754-9491-d3801f307528]:local UDP tunnel created between port 10026 and 10027
+2025-07-03 16:24:27 INFO base_node.py:942 Qemu: 'SONiC-1' [f7f53b20-9627-4754-9491-d3801f307528]:local UDP tunnel created between port 10028 and 10029
+2025-07-03 16:24:27 INFO qemu_vm.py:1175 Starting QEMU with: /usr/bin/qemu-system-x86_64 -name SONiC-1 -m 4096M -smp cpus=1,maxcpus=1,sockets=1 -enable-kvm -machine smm=off -boot order=d -drive file=/home/jppm/GNS3/projects/157a827c-ae96-4567-aae3-4caf60fcd07b/project-files/qemu/f7f53b20-9627-4754-9491-d3801f307528/hda_disk.qcow2,if=virtio,index=0,media=disk,id=drive0 -uuid f7f53b20-9627-4754-9491-d3801f307528 -serial telnet:127.0.0.1:5000,server,nowait -monitor tcp:127.0.0.1:44485,server,nowait -net none -device i82801b11-bridge,id=dmi_pci_bridge1 -device pci-bridge,id=pci-bridge1,bus=dmi_pci_bridge1,chassis_nr=0x1,addr=0x1,shpc=off -device e1000,mac=0c:f5:3b:20:00:00,bus=pci-bridge1,addr=0x00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10011,localaddr=127.0.0.1:10010 -device e1000,mac=0c:f5:3b:20:00:01,bus=pci-bridge1,addr=0x01,netdev=gns3-1 -netdev socket,id=gns3-1,udp=127.0.0.1:10013,localaddr=127.0.0.1:10012 -device e1000,mac=0c:f5:3b:20:00:02,bus=pci-bridge1,addr=0x02,netdev=gns3-2 -netdev socket,id=gns3-2,udp=127.0.0.1:10015,localaddr=127.0.0.1:10014 -device e1000,mac=0c:f5:3b:20:00:03,bus=pci-bridge1,addr=0x03,netdev=gns3-3 -netdev socket,id=gns3-3,udp=127.0.0.1:10017,localaddr=127.0.0.1:10016 -device e1000,mac=0c:f5:3b:20:00:04,bus=pci-bridge1,addr=0x04,netdev=gns3-4 -netdev socket,id=gns3-4,udp=127.0.0.1:10019,localaddr=127.0.0.1:10018 -device e1000,mac=0c:f5:3b:20:00:05,bus=pci-bridge1,addr=0x05,netdev=gns3-5 -netdev socket,id=gns3-5,udp=127.0.0.1:10021,localaddr=127.0.0.1:10020 -device e1000,mac=0c:f5:3b:20:00:06,bus=pci-bridge1,addr=0x06,netdev=gns3-6 -netdev socket,id=gns3-6,udp=127.0.0.1:10023,localaddr=127.0.0.1:10022 -device e1000,mac=0c:f5:3b:20:00:07,bus=pci-bridge1,addr=0x07,netdev=gns3-7 -netdev socket,id=gns3-7,udp=127.0.0.1:10025,localaddr=127.0.0.1:10024 -device e1000,mac=0c:f5:3b:20:00:08,bus=pci-bridge1,addr=0x08,netdev=gns3-8 -netdev socket,id=gns3-8,udp=127.0.0.1:10027,localaddr=127.0.0.1:10026 -device e1000,mac=0c:f5:3b:20:00:09,bus=pci-bridge1,addr=0x09,netdev=gns3-9 -netdev socket,id=gns3-9,udp=127.0.0.1:10029,localaddr=127.0.0.1:10028 -display none
+2025-07-03 16:24:27 INFO qemu_vm.py:1177 logging to /home/jppm/GNS3/projects/157a827c-ae96-4567-aae3-4caf60fcd07b/project-files/qemu/f7f53b20-9627-4754-9491-d3801f307528/qemu.log
+2025-07-03 16:24:27 INFO qemu_vm.py:1184 QEMU VM "SONiC-1" started PID=92600
+2025-07-03 16:24:27 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:34255
+2025-07-03 16:24:27 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:34255']
+2025-07-03 16:24:27 INFO hypervisor.py:165 logging to /home/jppm/GNS3/projects/157a827c-ae96-4567-aae3-4caf60fcd07b/project-files/qemu/f7f53b20-9627-4754-9491-d3801f307528/ubridge.log
+2025-07-03 16:24:27 INFO hypervisor.py:171 ubridge started PID=92602
+2025-07-03 16:24:27 INFO base_node.py:788 Hypervisor 0.0.0.0:34255 has successfully started
+2025-07-03 16:24:27 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:43965 after 0.1024 seconds
+2025-07-03 16:24:27 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:36031 after 0.1011 seconds
+2025-07-03 16:24:27 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:34255 after 0.1006 seconds
+2025-07-03 16:24:27 INFO base_node.py:448 New Telnet proxy server for console started (internal port = 5004, external port = 5003)
+2025-07-03 16:24:27 INFO vpcs_vm.py:249 VPCS instance PC2 started PID=92576
+2025-07-03 16:24:27 INFO base_node.py:448 New Telnet proxy server for console started (internal port = 5002, external port = 5014)
+2025-07-03 16:24:27 INFO vpcs_vm.py:249 VPCS instance PC1 started PID=92573
+2025-07-03 16:24:27 INFO qemu_vm.py:1341 Connected to QEMU monitor on 127.0.0.1:44485 after 0.0105 seconds
+2025-07-03 16:24:27 INFO qemu_vm.py:1408 Execute QEMU monitor command: set_link gns3-1 off
+2025-07-03 16:24:28 INFO qemu_vm.py:1408 Execute QEMU monitor command: set_link gns3-4 off
+2025-07-03 16:24:28 INFO qemu_vm.py:1408 Execute QEMU monitor command: set_link gns3-5 off
+2025-07-03 16:24:28 INFO qemu_vm.py:1408 Execute QEMU monitor command: set_link gns3-6 off
+2025-07-03 16:24:28 INFO qemu_vm.py:1408 Execute QEMU monitor command: set_link gns3-7 off
+2025-07-03 16:24:28 INFO qemu_vm.py:1408 Execute QEMU monitor command: set_link gns3-8 off
+2025-07-03 16:24:28 INFO qemu_vm.py:1408 Execute QEMU monitor command: set_link gns3-9 off
+2025-07-03 16:24:28 INFO base_node.py:448 New Telnet proxy server for console started (internal port = 5000, external port = 5011)
+2025-07-03 16:29:33 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 16:29:34 INFO base_node.py:801 Stopping uBridge hypervisor 0.0.0.0:36031
+2025-07-03 16:29:34 INFO hypervisor.py:200 Stopping uBridge process PID=92586
+2025-07-03 16:29:34 INFO base_node.py:801 Stopping uBridge hypervisor 0.0.0.0:43965
+2025-07-03 16:29:34 INFO hypervisor.py:200 Stopping uBridge process PID=92582
+2025-07-03 16:29:34 INFO base_node.py:801 Stopping uBridge hypervisor 0.0.0.0:34255
+2025-07-03 16:29:34 INFO hypervisor.py:200 Stopping uBridge process PID=92602
+2025-07-03 16:29:34 INFO vpcs_vm.py:314 Stopping VPCS instance PC1 PID=92573
+2025-07-03 16:29:34 INFO vpcs_vm.py:314 Stopping VPCS instance PC2 PID=92576
+2025-07-03 16:29:34 INFO qemu_vm.py:1273 Stopping QEMU VM "SONiC-1" PID=92600
+2025-07-03 16:29:34 INFO vpcs_vm.py:265 VPCS process has stopped, return code: 0
+2025-07-03 16:29:34 INFO vpcs_vm.py:265 VPCS process has stopped, return code: 0
+2025-07-03 16:29:34 INFO qemu_vm.py:1245 QEMU process has stopped, return code: 0
+2025-07-03 16:57:37 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2025-07-03 16:57:37 INFO vpcs_vm.py:230 Starting VPCS: ['/usr/bin/vpcs', '-p', '5002', '-m', '1', '-i', '1', '-F', '-R', '-s', '10006', '-c', '10007', '-t', '127.0.0.1']
+2025-07-03 16:57:37 INFO vpcs_vm.py:232 Logging to /home/jppm/GNS3/projects/157a827c-ae96-4567-aae3-4caf60fcd07b/project-files/vpcs/6debc873-db30-4159-899c-e9d7ccedc816/vpcs.log
+2025-07-03 16:57:37 INFO vpcs_vm.py:230 Starting VPCS: ['/usr/bin/vpcs', '-p', '5004', '-m', '0', '-i', '1', '-F', '-R', '-s', '10008', '-c', '10009', '-t', '127.0.0.1']
+2025-07-03 16:57:37 INFO vpcs_vm.py:232 Logging to /home/jppm/GNS3/projects/157a827c-ae96-4567-aae3-4caf60fcd07b/project-files/vpcs/ffe63de5-6b80-47a9-ad86-ff44f61925de/vpcs.log
+2025-07-03 16:57:37 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:37389
+2025-07-03 16:57:37 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:44273
+2025-07-03 16:57:37 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:37389']
+2025-07-03 16:57:37 INFO hypervisor.py:165 logging to /home/jppm/GNS3/projects/157a827c-ae96-4567-aae3-4caf60fcd07b/project-files/vpcs/6debc873-db30-4159-899c-e9d7ccedc816/ubridge.log
+2025-07-03 16:57:37 INFO hypervisor.py:171 ubridge started PID=98664
+2025-07-03 16:57:37 INFO base_node.py:788 Hypervisor 0.0.0.0:37389 has successfully started
+2025-07-03 16:57:37 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:44273']
+2025-07-03 16:57:37 INFO hypervisor.py:165 logging to /home/jppm/GNS3/projects/157a827c-ae96-4567-aae3-4caf60fcd07b/project-files/vpcs/ffe63de5-6b80-47a9-ad86-ff44f61925de/ubridge.log
+2025-07-03 16:57:37 INFO hypervisor.py:171 ubridge started PID=98665
+2025-07-03 16:57:37 INFO base_node.py:788 Hypervisor 0.0.0.0:44273 has successfully started
+2025-07-03 16:57:37 INFO qemu_vm.py:1975 logging to /home/jppm/GNS3/projects/157a827c-ae96-4567-aae3-4caf60fcd07b/project-files/qemu/f7f53b20-9627-4754-9491-d3801f307528/qemu-img.log
+2025-07-03 16:57:37 INFO qemu_vm.py:1977 Executing qemu-img with: /usr/bin/qemu-img check /home/jppm/GNS3/images/QEMU/sonic-vs.img
+2025-07-03 16:57:37 INFO qemu_vm.py:1175 Starting QEMU with: /usr/bin/qemu-system-x86_64 -name SONiC-1 -m 4096M -smp cpus=1,maxcpus=1,sockets=1 -enable-kvm -machine smm=off -boot order=d -drive file=/home/jppm/GNS3/projects/157a827c-ae96-4567-aae3-4caf60fcd07b/project-files/qemu/f7f53b20-9627-4754-9491-d3801f307528/hda_disk.qcow2,if=virtio,index=0,media=disk,id=drive0 -uuid f7f53b20-9627-4754-9491-d3801f307528 -serial telnet:127.0.0.1:5000,server,nowait -monitor tcp:127.0.0.1:41327,server,nowait -net none -device i82801b11-bridge,id=dmi_pci_bridge1 -device pci-bridge,id=pci-bridge1,bus=dmi_pci_bridge1,chassis_nr=0x1,addr=0x1,shpc=off -device e1000,mac=0c:f5:3b:20:00:00,bus=pci-bridge1,addr=0x00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10011,localaddr=127.0.0.1:10010 -device e1000,mac=0c:f5:3b:20:00:01,bus=pci-bridge1,addr=0x01,netdev=gns3-1 -netdev socket,id=gns3-1,udp=127.0.0.1:10013,localaddr=127.0.0.1:10012 -device e1000,mac=0c:f5:3b:20:00:02,bus=pci-bridge1,addr=0x02,netdev=gns3-2 -netdev socket,id=gns3-2,udp=127.0.0.1:10015,localaddr=127.0.0.1:10014 -device e1000,mac=0c:f5:3b:20:00:03,bus=pci-bridge1,addr=0x03,netdev=gns3-3 -netdev socket,id=gns3-3,udp=127.0.0.1:10017,localaddr=127.0.0.1:10016 -device e1000,mac=0c:f5:3b:20:00:04,bus=pci-bridge1,addr=0x04,netdev=gns3-4 -netdev socket,id=gns3-4,udp=127.0.0.1:10019,localaddr=127.0.0.1:10018 -device e1000,mac=0c:f5:3b:20:00:05,bus=pci-bridge1,addr=0x05,netdev=gns3-5 -netdev socket,id=gns3-5,udp=127.0.0.1:10021,localaddr=127.0.0.1:10020 -device e1000,mac=0c:f5:3b:20:00:06,bus=pci-bridge1,addr=0x06,netdev=gns3-6 -netdev socket,id=gns3-6,udp=127.0.0.1:10023,localaddr=127.0.0.1:10022 -device e1000,mac=0c:f5:3b:20:00:07,bus=pci-bridge1,addr=0x07,netdev=gns3-7 -netdev socket,id=gns3-7,udp=127.0.0.1:10025,localaddr=127.0.0.1:10024 -device e1000,mac=0c:f5:3b:20:00:08,bus=pci-bridge1,addr=0x08,netdev=gns3-8 -netdev socket,id=gns3-8,udp=127.0.0.1:10027,localaddr=127.0.0.1:10026 -device e1000,mac=0c:f5:3b:20:00:09,bus=pci-bridge1,addr=0x09,netdev=gns3-9 -netdev socket,id=gns3-9,udp=127.0.0.1:10029,localaddr=127.0.0.1:10028 -display none
+2025-07-03 16:57:37 INFO qemu_vm.py:1177 logging to /home/jppm/GNS3/projects/157a827c-ae96-4567-aae3-4caf60fcd07b/project-files/qemu/f7f53b20-9627-4754-9491-d3801f307528/qemu.log
+2025-07-03 16:57:37 INFO qemu_vm.py:1184 QEMU VM "SONiC-1" started PID=98679
+2025-07-03 16:57:37 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:33385
+2025-07-03 16:57:37 INFO hypervisor.py:163 starting ubridge: ['/usr/bin/ubridge', '-H', '0.0.0.0:33385']
+2025-07-03 16:57:37 INFO hypervisor.py:165 logging to /home/jppm/GNS3/projects/157a827c-ae96-4567-aae3-4caf60fcd07b/project-files/qemu/f7f53b20-9627-4754-9491-d3801f307528/ubridge.log
+2025-07-03 16:57:37 INFO hypervisor.py:171 ubridge started PID=98682
+2025-07-03 16:57:37 INFO base_node.py:788 Hypervisor 0.0.0.0:33385 has successfully started
+2025-07-03 16:57:37 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:37389 after 0.1018 seconds
+2025-07-03 16:57:37 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:44273 after 0.1014 seconds
+2025-07-03 16:57:37 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:33385 after 0.1012 seconds
+2025-07-03 16:57:37 INFO base_node.py:448 New Telnet proxy server for console started (internal port = 5002, external port = 5014)
+2025-07-03 16:57:37 INFO vpcs_vm.py:249 VPCS instance PC1 started PID=98652
+2025-07-03 16:57:37 INFO base_node.py:448 New Telnet proxy server for console started (internal port = 5004, external port = 5003)
+2025-07-03 16:57:37 INFO vpcs_vm.py:249 VPCS instance PC2 started PID=98654
+2025-07-03 16:57:37 INFO qemu_vm.py:1341 Connected to QEMU monitor on 127.0.0.1:41327 after 0.0103 seconds
+2025-07-03 16:57:37 INFO qemu_vm.py:1408 Execute QEMU monitor command: set_link gns3-1 off
+2025-07-03 16:57:37 INFO qemu_vm.py:1408 Execute QEMU monitor command: set_link gns3-4 off
+2025-07-03 16:57:37 INFO qemu_vm.py:1408 Execute QEMU monitor command: set_link gns3-5 off
+2025-07-03 16:57:37 INFO qemu_vm.py:1408 Execute QEMU monitor command: set_link gns3-6 off
+2025-07-03 16:57:37 INFO qemu_vm.py:1408 Execute QEMU monitor command: set_link gns3-7 off
+2025-07-03 16:57:37 INFO qemu_vm.py:1408 Execute QEMU monitor command: set_link gns3-8 off
+2025-07-03 16:57:37 INFO qemu_vm.py:1408 Execute QEMU monitor command: set_link gns3-9 off
+2025-07-03 16:57:38 INFO base_node.py:448 New Telnet proxy server for console started (internal port = 5000, external port = 5011)
+2025-07-03 17:22:17 INFO qemu_vm.py:1245 QEMU process has stopped, return code: -9
+2025-07-03 17:22:17 INFO base_node.py:801 Stopping uBridge hypervisor 0.0.0.0:33385
+2025-07-03 17:22:17 INFO hypervisor.py:200 Stopping uBridge process PID=98682
+2025-07-03 17:22:27 INFO server.py:264 connection closed
+2025-07-03 17:22:27 INFO server.py:264 connection closed
+2025-07-03 17:22:27 INFO projects.py:304 Client has disconnected from notification stream for project ID '643fb5d1-43b1-486f-baa5-a78d0bcb0bee' (WebSocket method)
+2025-07-03 17:22:27 INFO controller.py:221 Client 127.0.0.1:52420 has disconnected from controller WebSocket
+2025-07-03 17:22:32 INFO projects.py:313 Project '643fb5d1-43b1-486f-baa5-a78d0bcb0bee' is automatically closing due to no client listening
+2025-07-03 17:22:32 INFO base_node.py:801 Stopping uBridge hypervisor 0.0.0.0:37389
+2025-07-03 17:22:32 INFO hypervisor.py:200 Stopping uBridge process PID=98664
+2025-07-03 17:22:32 INFO base_node.py:801 Stopping uBridge hypervisor 0.0.0.0:44273
+2025-07-03 17:22:32 INFO hypervisor.py:200 Stopping uBridge process PID=98665
+2025-07-03 17:22:33 INFO vpcs_vm.py:314 Stopping VPCS instance PC2 PID=98654
+2025-07-03 17:22:33 INFO vpcs_vm.py:314 Stopping VPCS instance PC1 PID=98652
+2025-07-03 17:22:33 INFO vpcs_vm.py:265 VPCS process has stopped, return code: 0
+2025-07-03 17:22:33 INFO vpcs_vm.py:265 VPCS process has stopped, return code: 0
+2025-07-03 17:22:33 INFO base_node.py:370 Builtin: 'NAT1' [8a0400d5-47da-40d7-9579-7ce809a42063]: is closing
+2025-07-03 17:22:33 INFO base_node.py:801 Stopping uBridge hypervisor 0.0.0.0:43829
+2025-07-03 17:22:33 INFO hypervisor.py:200 Stopping uBridge process PID=84772
+2025-07-03 17:22:33 INFO base_node.py:370 VPCS: 'PC2' [ffe63de5-6b80-47a9-ad86-ff44f61925de]: is closing
+2025-07-03 17:22:33 INFO base_node.py:370 VPCS: 'PC1' [6debc873-db30-4159-899c-e9d7ccedc816]: is closing
+2025-07-03 17:22:33 INFO base_node.py:370 Qemu: 'SONiC-1' [f7f53b20-9627-4754-9491-d3801f307528]: is closing
+2025-07-03 17:22:33 INFO cloud.py:252 Cloud "NAT1" [8a0400d5-47da-40d7-9579-7ce809a42063] has been closed
+2025-07-03 17:22:33 INFO project.py:352 Project 643fb5d1-43b1-486f-baa5-a78d0bcb0bee with path '/home/jppm/GNS3/projects/157a827c-ae96-4567-aae3-4caf60fcd07b' closed
+2025-07-03 17:22:38 INFO server.py:263 Shutting down
+2025-07-03 17:22:38 INFO compute.py:479 Connection closed to compute 'local' WebSocket 'http://127.0.0.1:3080/v3/compute/notifications/ws'
+2025-07-03 17:22:38 INFO server.py:264 connection closed
+2025-07-03 17:22:38 INFO server.py:305 Waiting for background tasks to complete. (CTRL+C to force quit)
+2025-07-03 17:22:39 INFO tasks.py:238 Stopping monitoring for new images in '/home/jppm/GNS3/images'
+2025-07-03 17:22:43 INFO notifications.py:50 Client 127.0.0.1:58720 has disconnected from compute WebSocket
+2025-07-03 17:22:43 INFO on.py:67 Waiting for application shutdown.
+2025-07-03 17:22:43 INFO __init__.py:181 Controller is stopping
+2025-07-03 17:22:43 INFO tasks.py:106 Disconnected from database
+2025-07-03 17:22:43 INFO on.py:76 Application shutdown complete.
+2025-07-03 17:22:43 INFO server.py:93 Finished server process [84608]
+2025-07-03 17:22:43 INFO server.py:329 Remove PID file /home/jppm/.config/GNS3/3.0/gns3_server.pid

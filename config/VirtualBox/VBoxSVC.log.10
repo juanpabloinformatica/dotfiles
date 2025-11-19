@@ -1,0 +1,592 @@
+00:00:00.001693 main     VirtualBox XPCOM Server 7.2.2 r170484 linux.amd64 (Sep 24 2025 20:15:03) release log
+00:00:00.001697 main     Log opened 2025-11-03T19:13:42.239652000Z
+00:00:00.001699 main     Build Type: release
+00:00:00.001703 main     OS Product: Linux
+00:00:00.001705 main     OS Release: 6.17.3-arch2-1
+00:00:00.001708 main     OS Version: #1 SMP PREEMPT_DYNAMIC Fri, 17 Oct 2025 13:29:06 +0000
+00:00:00.001740 main     DMI Product Name: Inspiron 7580
+00:00:00.001758 main     DMI Product Version: 
+00:00:00.001766 main     Firmware type: UEFI
+00:00:00.002432 main     Secure Boot: Disabled
+00:00:00.002513 main     Host RAM: 15701MB (15.3GB) total, 11292MB (11.0GB) available
+00:00:00.002520 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.002521 main     Process ID: 44329
+00:00:00.002523 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.009409 main     IPC socket path: /tmp/.vbox-jppm-ipc/ipcd
+00:00:00.019654 DCon01   VirtualBox: object creation starts
+00:00:00.020690 DCon01   Home directory: '/home/jppm/.config/VirtualBox'
+00:00:00.022274 DCon01   Loading settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.029063 DCon01   USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0025)
+00:00:00.029187 DCon01   Successfully initialised host USB using sysfs
+00:00:00.050367 DCon01   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for eth0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.054218 DCon01   HostDnsMonitor: initializing
+00:00:00.054421 DCon01   NAT: resolv.conf: nameserver 8.8.8.8
+00:00:00.054442 DCon01   HostDnsMonitor: updating information
+00:00:00.054453 DCon01   HostDnsMonitor: old information
+00:00:00.054454 DCon01     no server entries
+00:00:00.054456 DCon01     no domain set
+00:00:00.054458 DCon01     no search string entries
+00:00:00.054459 DCon01   HostDnsMonitor: new information
+00:00:00.054461 DCon01     server 1: 8.8.8.8
+00:00:00.054463 DCon01     no domain set
+00:00:00.054464 DCon01     no search string entries
+00:00:00.080442 DCon01   VD: VDInit finished with VINF_SUCCESS
+00:00:00.085156 DCon01   Platform architecture set to 'x86'
+00:00:00.087310 DCon01   Loading settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox" with version "1.19-linux"
+00:00:00.088198 DCon01   Platform architecture set to 'x86'
+00:00:00.089678 DCon01   VirtualBox: object created
+00:00:00.976305 DCon09   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:01.135470 DCon09   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:01.483500 DCon09   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:01.486626 DCon09   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:00:02.430663 DCon09   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:02.440160 DCon09   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:00:10.126214 DCon10   Platform architecture set to 'x86'
+00:00:10.129538 DCon08   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:10.154252 DCon08   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for eth0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:10.178904 DCon08   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for eth0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:10.301245 DCon10   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:10.305229 DCon10   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:16.111753 DCon05   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:16.121575 DCon05   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:01:41.996633 DCon09   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:41.998708 DCon09   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:01:47.670264 DCon16   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:47.680281 DCon16   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:06:15.918128 DCon17   Launched VM: 1874620032 pid: 48551 (0xbda7) frontend: GUI/Qt name: vm3
+00:06:15.989066 DCon21   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:06:16.007438 DCon21   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:06:16.175970 DCon18   Platform architecture set to 'x86'
+00:06:16.229866 DCon21   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:06:16.234428 DCon21   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:06:16.325381 DCon22   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:06:16.335003 DCon22   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:06:16.828191 DCon16   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:06:16.867536 DCon16   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for eth0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:06:16.938062 DCon18   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:06:16.964870 DCon21   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:06:16.972194 DCon16   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:06:17.300053 DCon16   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:06:17.301249 DCon16   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:06:17.302530 DCon16   HostDnsMonitorProxy::GetDomainName: no domain set
+00:06:17.302652 DCon16   HostDnsMonitorProxy::GetNameServers:
+00:06:17.302658 DCon16     name server 1: 8.8.8.8
+00:06:17.302771 DCon16   HostDnsMonitorProxy::GetSearchStrings:
+00:06:17.302774 DCon16     no search string entries
+00:06:17.330011 DCon20   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:06:17.367711 DCon19   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:06:17.388134 DCon18   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:06:17.404723 DCon19   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:06:17.414278 DCon19   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:06:24.456080 DCon22   Saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox" with version "1.19-linux"
+00:06:24.467922 DCon22   Finished saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox"
+00:06:24.499434 DCon19   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:06:24.508799 DCon19   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:06:26.247077 DCon17   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:06:26.280775 DCon09   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for eth0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:06:26.303529 DCon09   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for eth0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:06:33.076673 DCon20   Saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox" with version "1.19-linux"
+00:06:33.086647 DCon20   Finished saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox"
+00:06:33.118826 DCon22   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:06:33.124973 DCon22   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:06:36.931850 DCon21   Saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox" with version "1.19-linux"
+00:06:36.980040 DCon21   Finished saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox"
+00:06:37.009057 DCon21   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:06:37.022468 DCon20   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:06:52.530664 DCon22   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:06:52.545947 DCon22   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:06:52.559151 DCon22   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:06:52.576179 DCon22   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saving)}, preserve=false aResultDetail=0
+00:06:52.874631 DCon21   Saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox" with version "1.19-linux"
+00:06:52.876455 DCon21   Finished saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox"
+00:06:52.880083 DCon19   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:06:52.885630 SaveState Saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox" with version "1.19-linux"
+00:06:52.887259 SaveState Finished saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox"
+00:06:52.890925 DCon25   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:06:52.960926 DCon09   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:06:52.997395 DCon23   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:06:53.207798 DCon23   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:06:53.217617 DCon23   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:06:53.905183 DCon18   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:06:53.922929 DCon25   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:06:57.185583 DCon25   Launched VM: 1874514256 pid: 48934 (0xbf26) frontend: GUI/Qt name: vm3
+00:06:57.192472 DCon25   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:06:57.202862 DCon25   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:06:57.366507 DCon23   Platform architecture set to 'x86'
+00:06:57.378055 DCon09   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:06:57.392774 DCon17   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:06:57.578593 DCon17   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:06:57.626515 DCon17   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:06:57.999694 DCon24   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:06:58.104503 DCon19   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:06:58.107114 DCon19   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:06:58.144050 DCon19   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Restoring)}, preserve=false aResultDetail=0
+00:06:58.181137 DCon25   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:06:58.182964 DCon19   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:06:58.185542 DCon19   HostDnsMonitorProxy::GetDomainName: no domain set
+00:06:58.185673 DCon19   HostDnsMonitorProxy::GetNameServers:
+00:06:58.185679 DCon19     name server 1: 8.8.8.8
+00:06:58.185798 DCon19   HostDnsMonitorProxy::GetSearchStrings:
+00:06:58.185802 DCon19     no search string entries
+00:06:58.482615 DCon19   Saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox" with version "1.19-linux"
+00:06:58.492394 DCon19   Finished saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox"
+00:06:58.510916 DCon19   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:06:58.548694 DCon19   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:06:58.570537 DCon19   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:07:28.497113 DCon17   Saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox" with version "1.19-linux"
+00:07:28.545585 DCon17   Finished saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox"
+00:07:28.553589 DCon17   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:07:28.564356 DCon27   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:07:49.949268 DCon22   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:07:49.973321 DCon22   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:07:49.986873 DCon22   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Stopping)}, preserve=false aResultDetail=0
+00:07:50.134438 DCon22   Saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox" with version "1.19-linux"
+00:07:50.136503 DCon22   Finished saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox"
+00:07:50.152651 DCon22   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:07:50.214452 DCon21   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:07:50.481376 DCon21   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:07:50.491194 DCon21   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:07:51.212176 DCon28   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:07:52.717877 DCon09   Launched VM: 1874613552 pid: 49402 (0xc0fa) frontend: GUI/Qt name: vm3
+00:07:52.785178 DCon21   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:07:52.931045 DCon22   Platform architecture set to 'x86'
+00:07:52.948082 DCon30   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:07:53.098061 DCon30   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:07:53.107581 DCon30   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:07:53.560896 DCon28   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:07:53.594683 DCon21   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for eth0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:07:53.691345 DCon28   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:07:53.700102 DCon28   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:07:53.788232 DCon31   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:07:53.789480 DCon31   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:07:53.790652 DCon31   HostDnsMonitorProxy::GetDomainName: no domain set
+00:07:53.790745 DCon31   HostDnsMonitorProxy::GetNameServers:
+00:07:53.790748 DCon31     name server 1: 8.8.8.8
+00:07:53.790836 DCon31   HostDnsMonitorProxy::GetSearchStrings:
+00:07:53.790839 DCon31     no search string entries
+00:07:53.813785 DCon22   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:07:53.977377 DCon29   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:09:17.230829 DCon32   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:09:17.265570 DCon32   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Stopping)}, preserve=false aResultDetail=0
+00:09:17.422131 DCon21   Saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox" with version "1.19-linux"
+00:09:17.424375 DCon21   Finished saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox"
+00:09:17.436922 DCon34   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:09:17.499111 DCon30   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:09:17.777962 DCon30   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:09:17.788922 DCon30   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:09:18.480896 DCon24   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:09:21.237756 DCon33   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:09:21.260744 DCon33   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:09:21.260841 DCon33   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:09:21.263193 DCon33   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:09:21.267372 DeleteVM Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:09:21.269579 DeleteVM Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:09:21.272675 DCon33   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:09:21.275092 DCon33   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:09:21.282165 DCon34   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {109be6b7-dcec-468d-a938-dac12e080594}}, preserve=false aResultDetail=0
+00:09:21.292951 DCon34   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {109be6b7-dcec-468d-a938-dac12e080594}}, preserve=false aResultDetail=0
+00:09:21.354155 DCon34   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:09:22.813926 DCon33   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:09:22.824291 DCon33   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:09:31.459830 DCon33   ERROR [COM]: aRC=NS_ERROR_NOT_IMPLEMENTED (0x80004001) aIID={39d1f56c-c1c2-40df-84e9-468062d84768} aComponent={UnattendedWrap} aText={Failed to open '/home/jppm/Downloads/isos/archlinux-2025.10.01-x86_64.iso' as ISO FS (VERR_VFS_UNKNOWN_FORMAT) - Not ISO? Unable to recognize volume descriptor signature: 00 00 00 00 00}, preserve=false aResultDetail=-24800
+00:09:31.467903 DCon33   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:09:31.470046 DCon33   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:09:31.472080 DCon28   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:09:31.473612 DCon28   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:10:04.478348 createBase Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:10:04.526730 createBase Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:10:04.530411 DCon28   Platform architecture set to 'x86'
+00:10:04.530527 DCon28   Platform architecture set to 'x86'
+00:10:04.530539 DCon28   Platform architecture set to 'x86'
+00:10:04.530789 DCon28   Platform architecture set to 'x86'
+00:10:04.531562 DCon28   Saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox" with version "1.19-linux"
+00:10:04.533125 DCon28   Finished saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox"
+00:10:04.533234 DCon28   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:10:04.534849 DCon28   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:10:04.535768 DCon28   Platform architecture set to 'x86'
+00:10:04.537105 DCon37   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:10:04.538550 DCon37   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:10:04.538932 DCon37   Saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox" with version "1.19-linux"
+00:10:04.540398 DCon37   Finished saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox"
+00:10:04.541970 DCon37   Saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox" with version "1.19-linux"
+00:10:04.543480 DCon37   Finished saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox"
+00:10:04.543878 DCon28   Saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox" with version "1.19-linux"
+00:10:04.545334 DCon28   Finished saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox"
+00:10:04.644963 DCon33   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:10:04.669954 DCon33   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:10:04.896420 DCon33   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:10:04.906053 DCon33   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:10:07.261800 DCon33   Platform architecture set to 'x86'
+00:10:07.264297 DCon37   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:10:07.287649 DCon37   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for eth0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:10:07.312677 DCon37   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for eth0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:10:07.492974 DCon24   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:10:07.499479 DCon24   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:10:07.733821 DCon24   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:10:07.782204 DCon24   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:10:14.247113 DCon24   Platform architecture set to 'x86'
+00:10:14.287012 DCon24   Saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox" with version "1.19-linux"
+00:10:14.296541 DCon24   Finished saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox"
+00:10:14.362442 DCon24   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:10:14.365072 DCon24   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:10:14.616429 DCon24   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:10:14.626340 DCon24   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:10:17.663222 DCon33   Launched VM: 67113120 pid: 50475 (0xc52b) frontend: GUI/Qt name: vm3
+00:10:17.702036 DCon33   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:10:17.718822 DCon33   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:10:17.869718 DCon40   Platform architecture set to 'x86'
+00:10:17.882663 DCon39   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:10:17.892940 DCon43   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:10:18.070315 DCon42   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:10:18.118252 DCon42   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:10:18.503197 DCon43   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:10:18.540070 DCon43   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for eth0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:10:18.617044 DCon39   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:10:18.636858 DCon37   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:10:18.641198 DCon37   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:10:18.723291 DCon39   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:10:18.724283 DCon39   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:10:18.725323 DCon37   HostDnsMonitorProxy::GetDomainName: no domain set
+00:10:18.725407 DCon37   HostDnsMonitorProxy::GetNameServers:
+00:10:18.725410 DCon37     name server 1: 8.8.8.8
+00:10:18.725488 DCon37   HostDnsMonitorProxy::GetSearchStrings:
+00:10:18.725490 DCon37     no search string entries
+00:10:18.747925 DCon40   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:10:18.792313 DCon43   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:10:18.815128 DCon40   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:10:18.997904 DCon40   Saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox" with version "1.19-linux"
+00:10:19.007533 DCon40   Finished saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox"
+00:10:19.018815 DCon42   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:10:19.026393 DCon42   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:10:27.242827 DCon39   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:10:27.244121 DCon24   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:10:27.245939 DCon24   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:10:27.246775 DCon39   Saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox" with version "1.19-linux"
+00:10:27.248524 DCon39   Finished saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox"
+00:10:27.271253 DCon39   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:10:27.281757 DCon24   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:11:42.268213 DCon45   Saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox" with version "1.19-linux"
+00:11:42.276067 DCon45   Finished saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox"
+00:11:42.283248 DCon24   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:11:42.285671 DCon24   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:11:42.297722 DCon41   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:11:42.314081 DCon41   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:11:43.798192 DCon41   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:11:43.800016 DCon40   Saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox" with version "1.19-linux"
+00:11:43.807943 DCon41   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:11:43.807990 DCon40   Finished saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox"
+00:11:43.820297 DCon24   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:11:43.834788 DCon40   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:13:35.299845 DCon51   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:13:35.324579 DCon51   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:13:35.336069 DCon51   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Stopping)}, preserve=false aResultDetail=0
+00:13:35.483539 DCon51   Saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox" with version "1.19-linux"
+00:13:35.485782 DCon51   Finished saving settings file "/home/jppm/VirtualBox VMs/vm3/vm3.vbox"
+00:13:35.515738 DCon51   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:13:35.576522 DCon50   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:13:35.831402 DCon50   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:13:35.841667 DCon50   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:13:37.052760 DCon24   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:13:39.643216 DCon40   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:13:39.691729 DCon40   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:13:39.691789 DCon40   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:13:39.693718 DCon40   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:13:39.696784 DeleteVM Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:13:39.698579 DeleteVM Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:13:39.701038 DCon50   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {4de7cc4a-b0e4-4414-8938-f9f064e9cf5e}}, preserve=false aResultDetail=0
+00:13:39.716258 DCon47   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {4de7cc4a-b0e4-4414-8938-f9f064e9cf5e}}, preserve=false aResultDetail=0
+00:13:39.771189 DCon47   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:13:41.397429 DCon24   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:13:41.407535 DCon24   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:13:47.102808 DCon24   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:13:47.113059 DCon24   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:13:48.405866 DCon24   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:13:48.415792 DCon24   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:13:48.798519 DCon24   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:13:48.808587 DCon24   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:13:49.596677 DCon40   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:13:49.607163 DCon40   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:14:05.862280 DCon40   ERROR [COM]: aRC=NS_ERROR_NOT_IMPLEMENTED (0x80004001) aIID={39d1f56c-c1c2-40df-84e9-468062d84768} aComponent={UnattendedWrap} aText={Failed to open '/home/jppm/Downloads/isos/archlinux-2025.10.01-x86_64.iso' as ISO FS (VERR_VFS_UNKNOWN_FORMAT) - Not ISO? Unable to recognize volume descriptor signature: 00 00 00 00 00}, preserve=false aResultDetail=-24800
+00:14:32.109726 createBase Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:14:32.157766 createBase Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:14:32.162114 DCon50   Platform architecture set to 'x86'
+00:14:32.162255 DCon50   Platform architecture set to 'x86'
+00:14:32.162267 DCon50   Platform architecture set to 'x86'
+00:14:32.162563 DCon50   Platform architecture set to 'x86'
+00:14:32.163417 DCon50   Saving settings file "/home/jppm/VirtualBox VMs/testvm3/testvm3.vbox" with version "1.19-linux"
+00:14:32.164923 DCon50   Finished saving settings file "/home/jppm/VirtualBox VMs/testvm3/testvm3.vbox"
+00:14:32.165035 DCon50   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:14:32.166797 DCon50   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:14:32.167484 DCon52   Platform architecture set to 'x86'
+00:14:32.168989 DCon50   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:14:32.170412 DCon50   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:14:32.170700 DCon52   Saving settings file "/home/jppm/VirtualBox VMs/testvm3/testvm3.vbox" with version "1.19-linux"
+00:14:32.172221 DCon52   Finished saving settings file "/home/jppm/VirtualBox VMs/testvm3/testvm3.vbox"
+00:14:32.173722 DCon50   Saving settings file "/home/jppm/VirtualBox VMs/testvm3/testvm3.vbox" with version "1.19-linux"
+00:14:32.175187 DCon50   Finished saving settings file "/home/jppm/VirtualBox VMs/testvm3/testvm3.vbox"
+00:14:32.175589 DCon52   Saving settings file "/home/jppm/VirtualBox VMs/testvm3/testvm3.vbox" with version "1.19-linux"
+00:14:32.177059 DCon52   Finished saving settings file "/home/jppm/VirtualBox VMs/testvm3/testvm3.vbox"
+00:14:32.315033 DCon52   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:14:32.350767 DCon40   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:14:32.565642 DCon40   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:14:32.575212 DCon40   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:14:45.973991 DCon50   Platform architecture set to 'x86'
+00:14:45.976542 DCon24   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:14:46.001396 DCon55   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for eth0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:14:46.025465 DCon55   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for eth0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:14:46.177298 DCon54   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:14:46.180419 DCon54   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:14:46.697874 DCon54   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:14:46.746086 DCon54   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:15:19.448141 DCon50   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:15:19.458362 DCon50   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:15:19.458456 DCon50   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:15:19.460837 DCon50   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:15:19.466111 DeleteVM Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:15:19.468111 DeleteVM Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:15:19.476986 DCon55   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {e13f7f84-8b02-4bef-8581-04f2977da1b1}}, preserve=false aResultDetail=0
+00:15:19.507993 DCon56   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {e13f7f84-8b02-4bef-8581-04f2977da1b1}}, preserve=false aResultDetail=0
+00:15:19.563294 DCon55   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:15:19.584944 DCon55   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:15:26.619502 DCon57   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:15:26.629783 DCon57   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:15:28.266807 DCon54   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:15:28.277082 DCon54   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:15:39.462625 DCon54   ERROR [COM]: aRC=NS_ERROR_NOT_IMPLEMENTED (0x80004001) aIID={39d1f56c-c1c2-40df-84e9-468062d84768} aComponent={UnattendedWrap} aText={Failed to open '/home/jppm/Downloads/isos/archlinux-2025.10.01-x86_64.iso' as ISO FS (VERR_VFS_UNKNOWN_FORMAT) - Not ISO? Unable to recognize volume descriptor signature: 00 00 00 00 00}, preserve=false aResultDetail=-24800
+00:16:03.861163 createBase Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:16:03.909490 createBase Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:16:03.918343 DCon58   Platform architecture set to 'x86'
+00:16:03.918628 DCon58   Platform architecture set to 'x86'
+00:16:03.918659 DCon58   Platform architecture set to 'x86'
+00:16:03.919253 DCon58   Platform architecture set to 'x86'
+00:16:03.921293 DCon58   Saving settings file "/home/jppm/VirtualBox VMs/ltest/ltest.vbox" with version "1.19-linux"
+00:16:03.923134 DCon58   Finished saving settings file "/home/jppm/VirtualBox VMs/ltest/ltest.vbox"
+00:16:03.923290 DCon58   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:16:03.925430 DCon58   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:16:03.927370 DCon55   Platform architecture set to 'x86'
+00:16:03.931401 DCon59   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:16:03.933612 DCon59   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:16:03.934488 DCon55   Saving settings file "/home/jppm/VirtualBox VMs/ltest/ltest.vbox" with version "1.19-linux"
+00:16:03.936433 DCon55   Finished saving settings file "/home/jppm/VirtualBox VMs/ltest/ltest.vbox"
+00:16:03.939913 DCon58   Saving settings file "/home/jppm/VirtualBox VMs/ltest/ltest.vbox" with version "1.19-linux"
+00:16:03.941921 DCon58   Finished saving settings file "/home/jppm/VirtualBox VMs/ltest/ltest.vbox"
+00:16:03.942830 DCon55   Saving settings file "/home/jppm/VirtualBox VMs/ltest/ltest.vbox" with version "1.19-linux"
+00:16:03.944773 DCon55   Finished saving settings file "/home/jppm/VirtualBox VMs/ltest/ltest.vbox"
+00:16:04.056123 DCon60   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:16:04.090178 DCon58   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:16:04.297748 DCon58   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:16:04.307634 DCon58   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:16:06.780098 DCon58   Platform architecture set to 'x86'
+00:16:06.782101 DCon54   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:16:06.806294 DCon58   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for eth0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:16:06.830279 DCon58   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for eth0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:16:07.017607 DCon59   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:16:07.021867 DCon59   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:16:07.197656 DCon55   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:16:07.245797 DCon55   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:16:10.841863 DCon55   Platform architecture set to 'x86'
+00:16:10.889418 DCon55   Saving settings file "/home/jppm/VirtualBox VMs/ltest/ltest.vbox" with version "1.19-linux"
+00:16:10.898940 DCon55   Finished saving settings file "/home/jppm/VirtualBox VMs/ltest/ltest.vbox"
+00:16:10.959131 DCon55   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:16:10.961765 DCon55   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:16:11.217162 DCon61   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:16:11.227330 DCon61   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:16:13.587603 DCon55   Launched VM: 1874629648 pid: 53224 (0xcfe8) frontend: GUI/Qt name: ltest
+00:16:13.652095 DCon54   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:16:13.671850 DCon54   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:16:13.800603 DCon59   Platform architecture set to 'x86'
+00:16:13.812420 DCon63   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:16:13.817751 DCon64   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:16:13.997039 DCon64   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:16:14.006625 DCon64   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:16:14.400451 DCon64   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:16:14.434664 DCon64   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for eth0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:16:14.513026 DCon61   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:16:14.529584 DCon59   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:16:14.536514 DCon59   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:16:14.618725 DCon54   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:16:14.619637 DCon54   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:16:14.620878 DCon54   HostDnsMonitorProxy::GetDomainName: no domain set
+00:16:14.620973 DCon54   HostDnsMonitorProxy::GetNameServers:
+00:16:14.620976 DCon54     name server 1: 8.8.8.8
+00:16:14.621058 DCon54   HostDnsMonitorProxy::GetSearchStrings:
+00:16:14.621061 DCon54     no search string entries
+00:16:14.641228 DCon55   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:16:14.679758 DCon55   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:16:14.699689 DCon55   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:16:14.887676 DCon55   Saving settings file "/home/jppm/VirtualBox VMs/ltest/ltest.vbox" with version "1.19-linux"
+00:16:14.897084 DCon55   Finished saving settings file "/home/jppm/VirtualBox VMs/ltest/ltest.vbox"
+00:16:14.912466 DCon58   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:16:14.921667 DCon61   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:18:54.372938 DCon68   Saving settings file "/home/jppm/VirtualBox VMs/ltest/ltest.vbox" with version "1.19-linux"
+00:18:54.421151 DCon68   Finished saving settings file "/home/jppm/VirtualBox VMs/ltest/ltest.vbox"
+00:18:54.430188 DCon63   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:18:54.446618 DCon63   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:19:32.412663 DCon68   Saving settings file "/home/jppm/VirtualBox VMs/ltest/ltest.vbox" with version "1.19-linux"
+00:19:32.423002 DCon68   Finished saving settings file "/home/jppm/VirtualBox VMs/ltest/ltest.vbox"
+00:19:32.434824 DCon65   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:19:32.447434 DCon70   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:19:52.336515 DCon73   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:19:52.377264 DCon61   Saving settings file "/home/jppm/VirtualBox VMs/ltest/ltest.vbox" with version "1.19-linux"
+00:19:52.379072 DCon61   Finished saving settings file "/home/jppm/VirtualBox VMs/ltest/ltest.vbox"
+00:19:52.393327 DCon73   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:19:52.405338 DCon73   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:25:53.229061 DCon72   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:25:53.239068 DCon72   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:25:53.702014 DCon76   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:25:53.712039 DCon76   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:36:30.612529 DCon89   Saving settings file "/home/jppm/VirtualBox VMs/ltest/ltest.vbox" with version "1.19-linux"
+00:36:30.660770 DCon89   Finished saving settings file "/home/jppm/VirtualBox VMs/ltest/ltest.vbox"
+00:36:30.660915 DCon90   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:36:30.662403 DCon90   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:36:30.668496 DCon87   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:36:30.679049 DCon87   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:38:46.085362 DCon98   Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:38:46.095346 DCon98   Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:51:16.287649 DCon111  Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:51:16.335867 DCon111  Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:51:21.870676 DCon114  Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:51:21.880065 DCon114  Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:51:22.371594 DCon117  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:51:22.397437 DCon117  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:51:22.411780 DCon117  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Stopping)}, preserve=false aResultDetail=0
+00:51:22.571433 DCon117  Saving settings file "/home/jppm/VirtualBox VMs/ltest/ltest.vbox" with version "1.19-linux"
+00:51:22.573201 DCon117  Finished saving settings file "/home/jppm/VirtualBox VMs/ltest/ltest.vbox"
+00:51:22.594585 DCon117  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:51:22.655671 DCon116  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:51:22.910168 DCon111  Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:51:22.920264 DCon111  Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:51:23.655178 DCon110  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:51:25.593653 DCon110  Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:51:25.603290 DCon110  Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:51:25.603367 DCon110  Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:51:25.605029 DCon110  Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:51:25.607564 DeleteVM Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:51:25.609810 DeleteVM Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:51:25.612613 DCon111  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {ef5392ed-ae14-4bdf-96e2-6baee483c3b6}}, preserve=false aResultDetail=0
+00:51:25.622207 DCon111  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {ef5392ed-ae14-4bdf-96e2-6baee483c3b6}}, preserve=false aResultDetail=0
+00:51:25.635947 DCon111  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:51:26.728085 DCon111  Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:51:26.738800 DCon111  Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:51:50.301428 DCon102  ERROR [COM]: aRC=NS_ERROR_NOT_IMPLEMENTED (0x80004001) aIID={39d1f56c-c1c2-40df-84e9-468062d84768} aComponent={UnattendedWrap} aText={Failed to open '/home/jppm/Downloads/archlinux-x86_64.iso' as ISO FS (VERR_VFS_UNKNOWN_FORMAT) - Not ISO? Unable to recognize volume descriptor signature: ff ff 0f ff ff}, preserve=false aResultDetail=-24800
+00:51:50.304945 DCon102  Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:51:50.306499 DCon102  Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:51:50.308263 DCon102  Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:51:50.309813 DCon102  Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:53:28.684401 DCon110  Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:53:28.694144 DCon110  Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:53:44.453776 createBase Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:53:44.463618 createBase Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:53:44.467361 DCon118  Platform architecture set to 'x86'
+00:53:44.467484 DCon118  Platform architecture set to 'x86'
+00:53:44.467497 DCon118  Platform architecture set to 'x86'
+00:53:44.467792 DCon118  Platform architecture set to 'x86'
+00:53:44.468603 DCon118  Saving settings file "/home/jppm/VirtualBox VMs/testvm/testvm.vbox" with version "1.19-linux"
+00:53:44.470030 DCon118  Finished saving settings file "/home/jppm/VirtualBox VMs/testvm/testvm.vbox"
+00:53:44.470138 DCon118  Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:53:44.471922 DCon118  Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:53:44.472834 DCon118  Platform architecture set to 'x86'
+00:53:44.474290 DCon111  Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:53:44.475748 DCon111  Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:53:44.476062 DCon102  Saving settings file "/home/jppm/VirtualBox VMs/testvm/testvm.vbox" with version "1.19-linux"
+00:53:44.477509 DCon102  Finished saving settings file "/home/jppm/VirtualBox VMs/testvm/testvm.vbox"
+00:53:44.478669 DCon102  Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:53:44.480115 DCon102  Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:53:44.480371 DCon102  Saving settings file "/home/jppm/VirtualBox VMs/testvm/testvm.vbox" with version "1.19-linux"
+00:53:44.481980 DCon102  Finished saving settings file "/home/jppm/VirtualBox VMs/testvm/testvm.vbox"
+00:53:44.482503 DCon111  Saving settings file "/home/jppm/VirtualBox VMs/testvm/testvm.vbox" with version "1.19-linux"
+00:53:44.484017 DCon111  Finished saving settings file "/home/jppm/VirtualBox VMs/testvm/testvm.vbox"
+00:53:44.567203 DCon111  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:53:44.579373 DCon111  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:53:44.829708 DCon111  Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:53:44.839285 DCon111  Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:53:51.842094 DCon102  Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:53:51.852274 DCon102  Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:53:51.852381 DCon102  Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:53:51.854539 DCon102  Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:53:51.859755 DeleteVM Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:53:51.862100 DeleteVM Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:53:51.869283 DCon102  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {75dda676-21e2-4209-bfef-c72c9b79c022}}, preserve=false aResultDetail=0
+00:53:51.884659 DCon110  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {75dda676-21e2-4209-bfef-c72c9b79c022}}, preserve=false aResultDetail=0
+00:53:51.891260 DCon110  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:53:51.893776 DCon110  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:53:54.795031 DCon110  Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:53:54.804918 DCon110  Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:53:57.599155 DCon111  Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:53:57.647276 DCon111  Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:54:11.580830 DCon111  ERROR [COM]: aRC=NS_ERROR_NOT_IMPLEMENTED (0x80004001) aIID={39d1f56c-c1c2-40df-84e9-468062d84768} aComponent={UnattendedWrap} aText={Failed to open '/home/jppm/Downloads/archlinux-x86_64.iso' as ISO FS (VERR_VFS_UNKNOWN_FORMAT) - Not ISO? Unable to recognize volume descriptor signature: ff ff 0f ff ff}, preserve=false aResultDetail=-24800
+00:54:36.453001 createBase Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:54:36.501293 createBase Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:54:36.507384 DCon119  Platform architecture set to 'x86'
+00:54:36.507625 DCon119  Platform architecture set to 'x86'
+00:54:36.507650 DCon119  Platform architecture set to 'x86'
+00:54:36.508212 DCon119  Platform architecture set to 'x86'
+00:54:36.509591 DCon119  Saving settings file "/home/jppm/VirtualBox VMs/vmx/vmx.vbox" with version "1.19-linux"
+00:54:36.511327 DCon119  Finished saving settings file "/home/jppm/VirtualBox VMs/vmx/vmx.vbox"
+00:54:36.511458 DCon119  Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:54:36.513200 DCon119  Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:54:36.514200 DCon119  Platform architecture set to 'x86'
+00:54:36.516089 DCon122  Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:54:36.517664 DCon122  Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:54:36.518007 DCon119  Saving settings file "/home/jppm/VirtualBox VMs/vmx/vmx.vbox" with version "1.19-linux"
+00:54:36.519469 DCon119  Finished saving settings file "/home/jppm/VirtualBox VMs/vmx/vmx.vbox"
+00:54:36.520836 DCon122  Saving settings file "/home/jppm/VirtualBox VMs/vmx/vmx.vbox" with version "1.19-linux"
+00:54:36.522308 DCon122  Finished saving settings file "/home/jppm/VirtualBox VMs/vmx/vmx.vbox"
+00:54:36.522665 DCon122  Saving settings file "/home/jppm/VirtualBox VMs/vmx/vmx.vbox" with version "1.19-linux"
+00:54:36.524120 DCon122  Finished saving settings file "/home/jppm/VirtualBox VMs/vmx/vmx.vbox"
+00:54:36.597870 DCon111  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:54:36.601866 DCon119  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:54:36.887866 DCon119  Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:54:36.897946 DCon119  Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:54:40.796802 DCon111  Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:54:40.845243 DCon111  Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:54:42.930607 DCon122  Platform architecture set to 'x86'
+00:54:42.932813 DCon111  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:54:42.955540 DCon119  NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for eth0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:54:42.982103 DCon119  NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for eth0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:54:43.119845 DCon123  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:54:43.123085 DCon123  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:54:43.330477 DCon111  Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:54:43.378795 DCon111  Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:54:50.464237 DCon111  Platform architecture set to 'x86'
+00:54:50.514360 DCon111  Saving settings file "/home/jppm/VirtualBox VMs/vmx/vmx.vbox" with version "1.19-linux"
+00:54:50.524211 DCon111  Finished saving settings file "/home/jppm/VirtualBox VMs/vmx/vmx.vbox"
+00:54:50.572212 DCon123  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:54:50.575076 DCon123  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:54:50.864402 DCon123  Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:54:50.874783 DCon123  Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:54:54.462768 DCon102  Launched VM: 603995984 pid: 68977 (0x10d71) frontend: GUI/Qt name: vmx
+00:54:54.517488 DCon122  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:54:54.536039 DCon124  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:54:54.696113 DCon125  Platform architecture set to 'x86'
+00:54:54.709705 DCon127  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:54:54.714360 DCon127  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:54:54.896923 DCon127  Saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:54:54.906948 DCon127  Finished saving settings file "/home/jppm/.config/VirtualBox/VirtualBox.xml"
+00:54:55.310515 DCon102  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:54:55.344892 DCon102  NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for eth0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:54:55.410445 DCon126  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:54:55.433761 DCon126  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:54:55.445400 DCon126  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:54:55.510744 DCon126  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:54:55.511679 DCon126  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:54:55.512682 DCon126  HostDnsMonitorProxy::GetDomainName: no domain set
+00:54:55.512767 DCon126  HostDnsMonitorProxy::GetNameServers:
+00:54:55.512770 DCon126    name server 1: 8.8.8.8
+00:54:55.512853 DCon126  HostDnsMonitorProxy::GetSearchStrings:
+00:54:55.512856 DCon126    no search string entries
+00:54:55.534234 DCon123  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:54:55.572890 DCon123  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:54:55.597337 DCon125  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:54:55.789736 DCon122  Saving settings file "/home/jppm/VirtualBox VMs/vmx/vmx.vbox" with version "1.19-linux"
+00:54:55.799653 DCon122  Finished saving settings file "/home/jppm/VirtualBox VMs/vmx/vmx.vbox"
+00:54:55.822047 DCon123  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:54:55.838855 DCon123  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:55:33.962188 DCon128  Saving settings file "/home/jppm/VirtualBox VMs/vmx/vmx.vbox" with version "1.19-linux"
+00:55:34.010973 DCon128  Finished saving settings file "/home/jppm/VirtualBox VMs/vmx/vmx.vbox"
+00:55:34.029994 DCon129  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:55:34.052362 DCon125  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:55:47.827598 DCon127  Saving settings file "/home/jppm/VirtualBox VMs/vmx/vmx.vbox" with version "1.19-linux"
+00:55:47.837885 DCon127  Finished saving settings file "/home/jppm/VirtualBox VMs/vmx/vmx.vbox"
+00:55:47.857444 DCon130  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:55:47.870756 DCon125  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0

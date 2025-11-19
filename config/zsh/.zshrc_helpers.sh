@@ -1,6 +1,7 @@
 #!/bin/bash
 # ---- Setting_fzf -----
 
+# eval "$(fzf --zsh)"
 [ -f "${HOME}/.fzf.zsh" ] && source "${HOME}/.fzf.zsh"
 [ -f "${HOME}/Downloads/software/fzf-git.sh/fzf-git.sh" ] && source "${HOME}/Downloads/software/fzf-git.sh/fzf-git.sh"
 
@@ -45,30 +46,30 @@ setxkbmap -option "ctrl:nocaps"
 
 # useful_functions
 function init_server() {
-	PORT=7777
-	if [[ $1 == "" ]]; then
-		python3 -m http.server
-		python3 -m http.server --port $PORT
-	else
-		python3 -m http.server --directory "$1" $PORT
-	fi
+  PORT=7777
+  if [[ $1 == "" ]]; then
+    python3 -m http.server
+    python3 -m http.server --port $PORT
+  else
+    python3 -m http.server --directory "$1" $PORT
+  fi
 }
 function gck() {
-	git branch | sed -E 's/^.//g' |
-		awk '{print $1}' |
-		fzf --preview 'git show {}' --print0 |
-		xargs -0 git checkout
+  git branch | sed -E 's/^.//g' |
+    awk '{print $1}' |
+    fzf --preview 'git show {}' --print0 |
+    xargs -0 git checkout
 }
 
 function gri() {
 
-	# test -d "$(find . -maxdepth 1 -type d -name "*.git*")" && echo "exist"
-	if [[ -d "$(find . -maxdepth 1 -type d -name "*.git*")" && -n $1 ]]; then
-		echo "Executing rebase"
-		git -c "rebase.instructionFormat=(%an <%ae>) %s" rebase -i "$1"
-	else
-		echo "This is not a git repository or not hash passed"
-	fi
+  # test -d "$(find . -maxdepth 1 -type d -name "*.git*")" && echo "exist"
+  if [[ -d "$(find . -maxdepth 1 -type d -name "*.git*")" && -n $1 ]]; then
+    echo "Executing rebase"
+    git -c "rebase.instructionFormat=(%an <%ae>) %s" rebase -i "$1"
+  else
+    echo "This is not a git repository or not hash passed"
+  fi
 
 }
 
@@ -87,22 +88,23 @@ function gri() {
 # zle -N open_lazygit
 # bindkey '^g' open_lazygit
 function sshServer() {
-	echo "entering here"
-	local server=$*
-	local background_local='printf "\e]11;#000000\e\\"'
-	local background_server='printf "\e]11;#282828\e\\"'
-	# local background_server='printf "\e]11;#fbf1c7\e\\"'
-	eval ${background_server}
-	ssh ${server}
-	eval ${background_local}
+  echo "entering here"
+  local server=$*
+  local background_local='printf "\e]11;#000000\e\\"'
+  local background_server='printf "\e]11;#282828\e\\"'
+  # local background_server='printf "\e]11;#fbf1c7\e\\"'
+  eval ${background_server}
+  ssh ${server}
+  eval ${background_local}
 }
 
 export PATH="$HOME/.local/share/nvim/mason/bin:${PATH}"
-# Setting default background terminal to black
-# printf "\e]11;#000000\e\\"
 
-#
-#useful commands
-# getting an specific file or folder from github
-# git clone --no-checkout --depth=1 <repository_url>
-# git checkout <branch> -- <    [folder|file] wanted>
+function load_scripts() {
+  find "$HOME/Documents/scripts" -type f -name "*.sh" -print0 |
+    xargs -0 realpath |
+    tr '\n' '\0' |
+    xargs -0 -I {} ln -sf {} "$HOME/Documents/scripts/executables"
+}
+load_scripts &&
+  export PATH="$HOME/Documents/scripts/executables:${PATH}"
